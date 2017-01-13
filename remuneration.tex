@@ -5,21 +5,32 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{tango}
-\usepackage{libertine}
+\usepackage[ttscale=.875]{libertine}
+\usepackage{tcolorbox}
+\usepackage{fontawesome}
+\usepackage{array}
 
 \usepackage{cite}
 \usepackage[strings]{underscore}
 
 \newcommand{\assemblee}[1]{%
-  {\color{DarkPlum} #1}
+  \begin{tcolorbox}[colframe=DarkPlum,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=white]
+    \begin{tabular}{m{1cm} m{0.86\textwidth}}
+      {\huge \faUsers} & #1 \\
+    \end{tabular}
+  \end{tcolorbox}
 }
 
 \newcommand{\actuel}[1]{%
-  \textit{#1}
+  \begin{tcolorbox}[colframe=DarkButter,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=Aluminium2]
+    \textit{#1}
+  \end{tcolorbox}
 }
 
 \newcommand{\regle}[1]{%
+  \begin{tcolorbox}[colframe=DarkOrange,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=LightOrange]
   \textbf{#1}
+  \end{tcolorbox}
 }
 
 \title{
@@ -394,7 +405,7 @@ L'entretien annuel tel qu’il existe permet de :
 
 \subsection{La prise de recul}
 
- Aujourd’hui réalisée lors de l’entretien annuel, la prise de recul est un bilan régulier réalisé par le salarié ou des collaborateurs (360°) ou le management direct afin de mesurer les évolutions en termes d’expérience, de compétences, d’évaluer l’adéquation entre la personne et son rôle dans l’entreprise, etc.
+ Aujourd’hui réalisée lors de l’entretien annuel, la prise de recul est un bilan régulier réalisé par le salarié ou des collaborateurs (360\degre) ou le management direct afin de mesurer les évolutions en termes d’expérience, de compétences, d’évaluer l’adéquation entre la personne et son rôle dans l’entreprise, etc.
 
  Nous préconisons de faire des prises de recul de façon plus fréquente et tout aussi régulière. Il s’agit alors de proposer au salarié différents dispositifs. Charge au salarié ensuite de prendre ses responsabilités et d’utiliser celles qui lui conviennent le mieux au service de la couverture de ses besoins et de son épanouissement. 
 
@@ -404,7 +415,7 @@ L'entretien annuel tel qu’il existe permet de :
    \item Échanges avec un binôme de confiance choisi par le salarié
    \item Faire partie de communautés de pratiques au cours desquelles des sessions de co-développement professionnel peuvent être réalisées
    \item Réaliser des séances de supervision
-   \item Faire des 360° incluant les clients
+   \item Faire des 360\degre incluant les clients
    \item Mettre en place un système de recommandation interne / externe de ses collègues que le salarié peut activer chaque fois qu’il a pu constater par l’expérience une compétence avérée chez son collègue
    \item Mettre en place des rituels de célébration de réussites de l’entreprise
    \item Mettre en place des rituels d’apprentissage d’entreprise.
