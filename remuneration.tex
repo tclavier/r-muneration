@@ -7,6 +7,9 @@
 \usepackage{tango}
 \usepackage{libertine}
 
+\usepackage{cite}
+\usepackage[strings]{underscore}
+
 \newcommand{\assemblee}[1]{%
   {\color{DarkPlum} #1}
 }
@@ -23,15 +26,15 @@
   \begin{tabular}{p{2 cm} r}
     \hline\hline
     & \\
-    & Concours \textsc{Aneo} : \textsc{Innovation sur la rémunération} \\
+    & \textsc{Innovation sur la rémunération} \\
     & \\
     & \small{Enfin la rémunération du XXIème siècle.}\\
     & \small{Proposition pour un partage innovant de la valeur et des risques.} \\
-    & \small{Une proposition de : Olivier Albiez, Thomas Clavier et Mija Rabemananjara} \\
     \hline\hline
   \end{tabular}
 }
 \date{}
+\author{Olivier Albiez, Thomas Clavier et Mija Rabemananjara}
 
 \begin{document}
 
@@ -200,10 +203,11 @@ L'entretien annuel tel qu’il existe permet de :
  
  Un tel système, où le salarié choisit son salaire nécessite de disposer des informations et des outils pour évaluer l’impact sur l’entreprise du choix du salaire ; nous pressentons la nécessité de disposer d’un outil pour faire des simulations pour aider les salariés à prendre les décisions.
  
- Ci-dessous une proposition de grille de salaires à modifier par l'ensemble des salariés :
+\begin{figure}
+  \begin{center}
   \begin{tabular}{| c | c |}
     \hline
-    Nivea & Salaire \\ 
+    Niveau & Salaire \\ 
     \hline
     A (option souris) & 1500-1600 \\
     \hline
@@ -230,137 +234,216 @@ L'entretien annuel tel qu’il existe permet de :
     L (option éléphant) & 9000-9100 \\
     \hline
   \end{tabular}
+  \end{center}
+  \caption{Exemple de grille de salaires}
+  \label{grille}
+\end{figure}
 
- Les éléments clés de l’entreprise (CA - chiffre d’affaire, charges, masse salariales, etc.) qui permettent de prendre des décisions sont rendus publiques également.
+\regle{Les éléments clés de l’entreprise (CA - chiffre d’affaire, charges, masse salariales, etc.) qui permettent de prendre des décisions sont rendus publiques également.}
+
  C’est un élément important de transparence qui permet de réguler les salaires. Cela demande de la pédagogie de la part de la direction ou de l’entité en charge du suivi financier de l’entreprise pour donner cette visibilité et cette conscience au salariés.
- La position dans la grille de salaire est publique au sein de l’entreprise.
+
+ \regle{La position dans la grille de salaire est publique au sein de l’entreprise.}
+
  Il est fortement conseillé aux salariés de discuter entre eux pour s’harmoniser sur leurs salaires et éviter de mettre en péril l’entreprise. Ce sujet est abordé de façon plus détaillée dans le paragraphe sur les variations de salaire.
- Le salaire Variable
+
+ \subsubsection{Le salaire Variable}
  Le variable : le salarié peut choisir de rendre une partie de son salaire fixe variable, pour prendre à sa charge une partie du risque de l’entreprise. En contrepartie, ce variable sera bonifié. 
  Le salarié a la possibilité de choisir une part de variable sur son salaire. Ce dispositif a pour but de prendre en compte une volonté individuelle de participer à la prise de risque. Cela se traduit par le choix d’une répartition du salaire issu de la grille entre salaire fixe versé tous les mois et un variable qui sera reversé à la clôture des comptes. 
  La réduction du salaire fixe versé mensuellement permet à l’entreprise de disposer de plus de liquidités. Lors de la redistribution des bénéfices en fin d’exercice, les personnes qui ont fait le choix de cette prise de risque sont “remboursées” en priorité ; ce “prêt” à l’entreprise est bonifié par un coefficient multiplicateur qui sera défini par l’ensemble des salariés (“assemblée”). Dans le cas où les bénéfices de l’entreprise ne permettent pas de couvrir les variables volontaires bonifiés, une répartition sera faite au prorata de la part de salaire “prêté” par le salarié à l’entreprise.
- La redistribution des bénéfices
- Aujourd’hui le variable est indexé sur l‘atteinte d’objectifs individuels. Ce système favorise la compétition puisqu’à enveloppe de redistribution égale, celui qui en aura le plus est celui qui pourra justifier de l’atteinte la plus proche de ses objectifs. Cette évaluation étant subjective, il s'ensuit un jeu de séduction et de compétition (parfois inconsciemment) pour être celui qui brille le plus auprès de ceux qui vont prendre les décisions.
- La redistribution des bénéfices se fait de façon égalitaire au prorata temporis.
+
+\subsection{La redistribution des bénéfices}
+\actuel{Aujourd’hui le variable est indexé sur l‘atteinte d’objectifs individuels. Ce système favorise la compétition puisqu’à enveloppe de redistribution égale, celui qui en aura le plus est celui qui pourra justifier de l’atteinte la plus proche de ses objectifs. Cette évaluation étant subjective, il s'ensuit un jeu de séduction et de compétition (parfois inconsciemment) pour être celui qui brille le plus auprès de ceux qui vont prendre les décisions.}
+
+\regle{La redistribution des bénéfices se fait de façon égalitaire au prorata temporis.}
+ 
  En fin d’exercice, l’entreprise définie, explique et publie la répartition des bénéfices de l’entreprise entre :
- Les investissements
- La trésorerie
- La rémunération du capital
- La redistribution des bénéfices
+ \begin{itemize}
+   \item Les investissements
+   \item La trésorerie
+   \item La rémunération du capital
+   \item La redistribution des bénéfices
+ \end{itemize}
+
  C’est pourquoi dans notre système nous attachons autant d’importance au fait de ne pas découper la performance collective en éléments de performance individuelle ou d'objectifs. Pour rappel, notre vision du système cible est un système à la fois juste et égalitaire. Le salaire fixe permet d’apporter la justice car le salarié choisit un salaire cohérent avec sa contribution. 
+
  Notre proposition est de redistribuer les bénéfices au prorata temporis des salariés, sous une forme compatible avec la législation et la fiscalité (participation aux bénéfices, primes, PEE, etc.).  Ainsi plus l'entreprise au global fait de bénéfices et plus chaque salarié bénéficiera d'une rémunération importante puisque sa part de bénéfice sera plus importante. Cette proposition doit permettre de favoriser l’engagement collectif, l’entraide et limiter les combats d’ego au bénéfice du collectif : On passe du “toi OU moi”, au “toi ET moi”. “Si tu gagnes, je gagne” au lieu de “si tu gagnes, je perds”.
 
+\subsection{Exemple}
 
- Léo, Léa et Léonie ont tous les 3 choisis leur salaire dans la grille. Léon arrive en cours d’année son salaire sera négocié dans la grille.
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{includes/choix_salaires}
+ \end{center}
 
- Léo a choisi de ne recevoir tous les mois que 60% de son salaire, Léonie a fait le choix de ne recevoir que 50% de son salaire. Ils laissent le reste dans l’entreprise pour en partager les risques.
- Léa a un plus grand besoins de liquidité dans son couple, elle vient d’avoir un bébé. Elle a donc choisi de prendre 80% de son salaire sous forme fixe.
+ Aujourd'hui, c'est la grande réunion de la rémunération, Léo, Léa et Léonie ont tous les 3 choisis leur salaire dans la grille. Léon arrivera en cours d’année son salaire sera négocié dans la grille, il est déjà représenté sur l'illustration.
+
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{includes/choix_part_fixe}
+ \end{center}
+
+ Léo a choisi de ne recevoir tous les mois que 60\% de son salaire, Léonie a fait le choix de ne recevoir que 50\% de son salaire. Ils laissent le reste dans l’entreprise pour en partager les risques.
+
+ Léa a un plus grand besoins de liquidité dans son couple, elle vient d’avoir un bébé. Elle a donc choisi de prendre 80\% de son salaire sous forme fixe.
+
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{includes/choix_part_variable}
+ \end{center}
 
  C’est la fin de l’année, le moment de faire le bilan financier. La société a fait une très bonne année, elle peut donc verser à nos 4 amis la totalité de leur part variable.
 
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{includes/versement_bonification}
+ \end{center}
+
  Accompagné de la bonification correspondante.
+
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{includes/versement_benefices}
+ \end{center}
 
  Les résultats sont tellement bon, qu’il reste de quoi verser une participation aux bénéfices. Léon n’étant là que depuis 6 mois, il n’a que la moitié de cette participation.
 
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{includes/remuneration}
+ \end{center}
  Au final voici les rémunération annuel de nos quatres amis.
 
- Les variations de salaire
+\subsection{Les variations de salaire}
  Les variations de salaire sont de plusieurs natures : 
- Soit systématiques
- Soit à l’initiative du salarié
- Systématique : le salaire suit le coût de la vie ; la grille évolue avec l’inflation.
+ \begin{itemize}
+   \item Soit systématiques
+   \item Soit à l’initiative du salarié
+ \end{itemize}
+
+ \regle{Systématique : le salaire suit le coût de la vie ; la grille évolue avec l’inflation.}
+
  Tous les ans la grille des salaires peut être réévaluée en fonction de l’inflation définie par l’INSEE.
- A l'initiative de chaque salarié : il peut demander à changer de salaire quand il le juge nécessaire, à la hausse ou à la baisse.
+
+ \regle{A l'initiative de chaque salarié : il peut demander à changer de salaire quand il le juge nécessaire, à la hausse ou à la baisse.}
+
  Les principes de transparence et donc de pression sociale restent applicables. Ainsi comme précédemment, les RH peuvent être des partenaires de réflexion dans le choix du nouveau salaire. Leur intervention est complémentaire des échanges entre salariés. Nous encourageons donc les salariés à discuter des modifications de salaire entre eux pour s’harmoniser. 
+
  Point important, la transparence est réalisée en mode poussé : les modifications de salaires sont notifiées à l’ensemble des salariés. 
+
  L’ensemble des salariés peut définir des modalités plus précise de revue des salaires (“assemblée”). Voici quelques exemples :
- Les revues de salaire seront réalisées par chacun et un système de revue par les autres salariés est organisé (la possibilité de donner un avis, via un outil par exemple).
- Les revues de salaire seront réalisées par chacun à des périodes clés définies. 
- Les revues de salaires seront toutes réalisées sur les mêmes périodes à la fréquence définie.
- Des journées annuelles de revues des rémunérations regrouperaient tous les acteurs et permettraient de parcourir en groupe le processus de réévaluation pour le bénéfice de l'ensemble du groupe.
- L’embauche et l’intégration
+ \begin{itemize}
+   \item Les revues de salaire seront réalisées par chacun et un système de revue par les autres salariés est organisé (la possibilité de donner un avis, via un outil par exemple).
+   \item Les revues de salaire seront réalisées par chacun à des périodes clés définies. 
+   \item Les revues de salaires seront toutes réalisées sur les mêmes périodes à la fréquence définie.
+   \item Des journées annuelles de revues des rémunérations regrouperaient tous les acteurs et permettraient de parcourir en groupe le processus de réévaluation pour le bénéfice de l'ensemble du groupe.
+ \end{itemize}
+
+\subsection{L’embauche et l’intégration}
+
  Notre système décrit également les modalités d’intégration d’un nouveau salarié venant d’un environnement où le système serait différent.
+
  L’embauche d’un nouveau salarié se fera en utilisant la grille de salaire et négocié durant le processus de recrutement, comme d’habitude. 
+
  Le système de rémunération cible décrit ici ne sera applicable qu’après une certaine période que nous appelons le “postulat”. Cette période de “postulat” est une période d’acculturation du nouvel embauché à la culture de l’entreprise. Elle doit entre autre lui permettre de comprendre comment fonctionne le système de rémunération pour lui permettre de jouer avec les mêmes règles du jeu en toute connaissance de causes. Ici l’hypothèse est que la durée de postulat dure 12 mois. 
+
  La durée de ce postulat peut être soumise à une approbation de l’ensemble des acteurs de l’entreprise (“assemblée”).
+
  Le nouvel arrivant intègre l’entreprise en tant que “postulant” et conserve son salaire d’embauche pendant un an, le temps de comprendre le mode de fonctionnement et d’acquérir les éléments de référence lui permettant de se positionner dans la culture.  
+
  Nous pensons qu’il serait utile qu’un nouvel embauché soit parrainé pendant cette période par un salarié pour donner des clés de lecture sur le fonctionnement de l’entreprise.
+
  Lors des échanges précédents l’embauche, l’explication de la rémunération suite à leur période de “postulat” peut être un élément d’attrait de nouveaux collaborateurs. 
+
+\section{Les autres briques du système}
+
  Notre proposition concernant la rémunération s’arrête ici. 
+
  Cependant, le système que nous vous proposons ne peut fonctionner si les besoins couverts par le système “classique” de rémunération n’est pas couvert par un autre dispositif. Dans la suite du document nous proposons quelques modalités de mise en oeuvre afin de vous permettre d’imaginer à quoi le système complet pourrait ressembler. Le niveau de description des modalités suivantes restera donc assez macroscopique.
- Les autres briques du système
- Attirer de nouveaux talents
- De la même manière, attirer les talents pourra se faire sur les même critères que ceux de la motivation. Il est en effet dangereux, pour nous, d’attirer les talents avec une rémunération alléchante car cela attire des mercenaires qui ne partagent souvent ni les valeurs ni la vision de l’entreprise.
- La motivation
+
+\subsection{Attirer de nouveaux talents}
+
+ Attirer les talents pourra se faire sur les même critères que ceux de la motivation. Il est en effet dangereux, pour nous, d’attirer les talents avec une rémunération alléchante car cela attire des mercenaires qui ne partagent souvent ni les valeurs ni la vision de l’entreprise.
+
+\subsection{La motivation}
+
  Aujourd’hui le système s’appuie sur une prime obtenue sur atteinte d’objectifs individuels annuels. 
+
  Nous pensons que l’argent n’est que rarement une source de motivation. Cela peut être une source de démotivation quand le salaire est insuffisant pour couvrir les charges de la personne ou que les critères de répartitions sont ressentis comme injustes. Notre proposition de rémunération n’est donc pas basée sur cette croyance que l’argent implique la motivation. 
+
  Nous pensons que la motivation des salariés peut jouer sur d’autres leviers. Ci-dessous quelques exemples :
- L’image de l’entreprise et sa notoriété pour pouvoir dire avec fierté : « Je travaille chez Spotify » au lieu de « je suis CEO et j’ai une voiture de fonction ».
- Le cadre de travail (espaces de travail “sympa”, label “great place to work”, Gallup Q12, baromètre de motivation des équipes, etc.).
- L’autonomie et les responsabilités que l’on peut exercer.
- Les apprentissages que l’on peut explorer (technologiques, humain, etc.).
- Les conférences et autres événements auxquelles on peut participer.
- Les sujets sur lesquels on travaille (innovations, passions).
- L’appartenance à des communautés internes.
- Les relations que l’on a avec ses collègues (managers ou pas).
- La possibilité de faire entendre sa voix en optant pour des modes d’organisation où tous ceux qui veulent s’exprimer en ont l’opportunité (holacratie, sociocratie, etc.).
- Créer des espaces de discussion en face à face réguliers pour des sujets personnels en laissant au salarié le choix de son partenaire.
- Créer des espaces d’échanges en groupe pour des sujets personnels, de montée en compétences ou pour les décisions qui impactent toute l’entreprise.
- L’équité dans le traitement : que les règles soient claires et appliquées de la même façon par tous. Certaines organisations disposent de commission de discipline qui est chargé de résoudre avec le salarié et un groupe de pairs un écart aux règles convenues.
- La reconnaissance
- Aujourd’hui, la reconnaissance sociale peut passer par la représentation d’un statut dans l’entreprise et par des avantages en nature associés : “Je suis manager et j’ai une voiture de fonction”. 
+ \begin{itemize}
+   \item L’image de l’entreprise et sa notoriété pour pouvoir dire avec fierté : « Je travaille chez Spotify » au lieu de « je suis CEO et j’ai une voiture de fonction ».
+   \item Le cadre de travail (espaces de travail “sympa”, label “great place to work”, Gallup Q12, baromètre de motivation des équipes, etc.).
+   \item L’autonomie et les responsabilités que l’on peut exercer.
+   \item Les apprentissages que l’on peut explorer (technologiques, humain, etc.).
+   \item Les conférences et autres événements auxquelles on peut participer.
+   \item Les sujets sur lesquels on travaille (innovations, passions).
+   \item L’appartenance à des communautés internes.
+   \item Les relations que l’on a avec ses collègues (managers ou pas).
+   \item La possibilité de faire entendre sa voix en optant pour des modes d’organisation où tous ceux qui veulent s’exprimer en ont l’opportunité (holacratie, sociocratie, etc.).
+   \item Créer des espaces de discussion en face à face réguliers pour des sujets personnels en laissant au salarié le choix de son partenaire.
+   \item Créer des espaces d’échanges en groupe pour des sujets personnels, de montée en compétences ou pour les décisions qui impactent toute l’entreprise.
+   \item L’équité dans le traitement : que les règles soient claires et appliquées de la même façon par tous. Certaines organisations disposent de commission de discipline qui est chargé de résoudre avec le salarié et un groupe de pairs un écart aux règles convenues.
+ \end{itemize}
+
+\subsection{La reconnaissance}
+ \actuel{Aujourd’hui, la reconnaissance sociale peut passer par la représentation d’un statut dans l’entreprise et par des avantages en nature associés : “Je suis manager et j’ai une voiture de fonction”.}
+
  Dans une entreprise plus libérée, ce genre de médaille n’a plus lieu d’être. La reconnaissance vient directement de la satisfaction à participer à la réussite de l’entreprise. Liberté et confiance en soi permettent de transcender ces signes extérieurs. 
+
  Nous pensons que la reconnaissance sociale peut évoluer vers une reconnaissance liée à l’appartenance à une société  (ex : je travaille chez Google, Favi, etc.)
+
  Les autres types de reconnaissance telles que la reconnaissance de l’expérience de la personne, de l’investissement de la personne, de la progression de la personne, etc. sont traités dans la prise de recul ci-dessous. 
+
  Être responsable et devenir autonome en respectant la ligne de flottaison (et donc ne pas mettre en risque l’entreprise) c’est être capable de prendre des décisions en connaissance de cause, en connaissant ses propres limites et celles des autres. Cela signifie être en mesure de reconnaître ce que chacun apporte, les autres autant que soi. Pour pouvoir évaluer ces apports, la prise de recul régulière suivants plusieurs axes est nécessaire. Et pour que ces prises de conscience soit partagées, savoir recevoir et donner du feedback est important. C’est un élément de culture dont le système aura besoin pour se pérenniser.
- La prise de recul
+
+\subsection{La prise de recul}
+
  Aujourd’hui réalisée lors de l’entretien annuel, la prise de recul est un bilan régulier réalisé par le salarié ou des collaborateurs (360°) ou le management direct afin de mesurer les évolutions en termes d’expérience, de compétences, d’évaluer l’adéquation entre la personne et son rôle dans l’entreprise, etc.
+
  Nous préconisons de faire des prises de recul de façon plus fréquente et tout aussi régulière. Il s’agit alors de proposer au salarié différents dispositifs. Charge au salarié ensuite de prendre ses responsabilités et d’utiliser celles qui lui conviennent le mieux au service de la couverture de ses besoins et de son épanouissement. 
+
  Ci-dessous quelques exemples possibles de modalités de mise en oeuvre liées à la prise de recul :
- Auto-évaluation régulière par le salarié (en accompagnement ou seul)
- Échanges avec un binôme de confiance choisi par le salarié
- Faire partie de communautés de pratiques au cours desquelles des sessions de co-développement professionnel peuvent être réalisées
- Réaliser des séances de supervision
- Faire des 360° incluant les clients
- Mettre en place un système de recommandation interne / externe de ses collègues que le salarié peut activer chaque fois qu’il a pu constater par l’expérience une compétence avérée chez son collègue
- Mettre en place des rituels de célébration de réussites de l’entreprise
- Mettre en place des rituels d’apprentissage d’entreprise.
+ \begin{itemize}
+   \item Auto-évaluation régulière par le salarié (en accompagnement ou seul)
+   \item Échanges avec un binôme de confiance choisi par le salarié
+   \item Faire partie de communautés de pratiques au cours desquelles des sessions de co-développement professionnel peuvent être réalisées
+   \item Réaliser des séances de supervision
+   \item Faire des 360° incluant les clients
+   \item Mettre en place un système de recommandation interne / externe de ses collègues que le salarié peut activer chaque fois qu’il a pu constater par l’expérience une compétence avérée chez son collègue
+   \item Mettre en place des rituels de célébration de réussites de l’entreprise
+   \item Mettre en place des rituels d’apprentissage d’entreprise.
+ \end{itemize}
+
  Remarque importante : les actions ci-dessus n’ont pas de périodicité, elles peuvent avoir lieux quand le salarié le décide. Il reprend ainsi la maîtrise de son rythme d’évolution et du sens de son évolution.
+
  La RH et le management sont au service des salariés pour proposer, aider à choisir, échanger. 
- L’évolution du collaborateur
- Aujourd’hui, lors de l’entretien annuel, des formations, coaching et autres parcours initiatiques sont définis pour accompagner le salarié dans son développement au service de l’atteinte de ses objectifs annuels.
+
+\subsection{L’évolution du collaborateur}
+ \actuel{Aujourd’hui, lors de l’entretien annuel, des formations, coaching et autres parcours initiatiques sont définis pour accompagner le salarié dans son développement au service de l’atteinte de ses objectifs annuels.}
+
  Dans notre système, la responsabilité de son évolution est rendue au salarié. L’entreprise lui met à disposition un ensemble de dispositifs que le salarié peut décider d’activer ou non en fonction de ses besoins. Ces dispositifs lui permettent de définir ses prochains challenges, d’identifier les formations ou autres moyens d'accompagnement qui lui seront nécessaires pour sa progression.
+
  Voici quelques exemples de dispositifs que l’on peut proposer aux salariés et qu’ils peuvent choisir d’utiliser, d’activer si et quand ils le souhaitent :
- Réaliser des entretiens avec des mentors internes ou externes à l’entreprise
- Faire intervenir des personnes extérieures pour témoigner des évolutions du marché, pour inspirer de nouvelles envies d’évolution, pour ouvrir de nouvelles perspectives
- Animer des sessions de remise en question de l’entreprise et de projection avec ses clients
- Participer au marketing de la société pour sentir de plus prêt les évolutions du marché (conférences, colloques, démarchage de prospects, etc.)
- Mettre en place un groupe de travail pour réfléchir et définir les formations stratégiques pour l’entreprise
- Mettre en place un budget de formation pour chaque collaborateur (comme les abonnements téléphoniques, avec report de forfait).
- Les attentes des salariés vis-à-vis des entités RH et du management 
+ \begin{itemize}
+   \item Réaliser des entretiens avec des mentors internes ou externes à l’entreprise
+   \item Faire intervenir des personnes extérieures pour témoigner des évolutions du marché, pour inspirer de nouvelles envies d’évolution, pour ouvrir de nouvelles perspectives
+   \item Animer des sessions de remise en question de l’entreprise et de projection avec ses clients
+   \item Participer au marketing de la société pour sentir de plus prêt les évolutions du marché (conférences, colloques, démarchage de prospects, etc.)
+   \item Mettre en place un groupe de travail pour réfléchir et définir les formations stratégiques pour l’entreprise
+   \item Mettre en place un budget de formation pour chaque collaborateur (comme les abonnements téléphoniques, avec report de forfait).
+ \end{itemize}
+
+\subsection{Les attentes des salariés vis-à-vis des entités RH et du management }
+
  Le système décrit montre que les attentes des salariés par rapport aux fonctions managériales et aux fonctions support seront différentes de celles qui existent aujourd’hui. Le salarié reprenant le pouvoir de décision et étant prêt à partager les risques et bénéfices de l’entreprise, ce qu’il va attendre de ces entités sera essentiellement : 
- De la transparence et de la pédagogie (explication de la grille, des persona, du mode de fonctionnement, de l’adéquation salaire/personne, etc.)
- De l’accompagnement dans la réflexion et le choix pour le bien du salarié et de l’entreprise (définition de dispositifs de prise de recul, aide dans le choix des évolutions de carrière possibles, dans les choix d’outils de progression, échange sur les envies, mise en perspective, etc.)
+  \begin{itemize}
+    \item De la transparence et de la pédagogie (explication de la grille, des persona, du mode de fonctionnement, de l’adéquation salaire/personne, etc.)
+    \item De l’accompagnement dans la réflexion et le choix pour le bien du salarié et de l’entreprise (définition de dispositifs de prise de recul, aide dans le choix des évolutions de carrière possibles, dans les choix d’outils de progression, échange sur les envies, mise en perspective, etc.)
+  \end{itemize}
+
  Ainsi, la direction et les RH dans ce mode de fonctionnement basculent vers un rôle d’animation des valeurs et de la vision pour garantir la cohésion du groupe, afin que les décisions individuelles soient cohérentes pour l’organisation. 
+
  D’autre part, nous pensons qu’il faut être vigilant et accompagner de façon plus attentive les salariés ayant une faible estime de soi et qui pourraient se retrouver en difficulté.
-\section{Nos sources d’inspiration}
-% Michel Chaudy, Faire des hommes libres : Boimondau et les Communautés de Travail à Valence, 2008, ISBN : 2-9520180-5-7, http://editionsrepas.free.fr/editions-repas-livre-boimondau.html 
-% Jean-François Draperi, Godin, inventeur de l'économie sociale, 2008, réédition 2014, ISBN : 2-9520180-4-9, http://editionsrepas.free.fr/editions-repas-livre-godin.html
-% Daniel Pink, La vérité sur ce qui nous motive, 2016, ISBN: 978-2081379527.
-% Daniel Pink,  The surprising truth about what motivates us, https://www.youtube.com/watch?v=u6XAPnuFjJc 
-% Gravity payments, salaire unique à 70k$, https://gravitypayments.com 
-% La ligne de flottaison de Gore,  http://www.oser-entreprendre.fr/rencontre-avec-w-l-gore-associe-frederic-amariutei/
-% Robert Sutton, Objectif zéro sale con,  2012, ISBN: 978-2266225755. https://www.amazon.com/Asshole-Rule-Civilized-Workplace-Surviving/dp/0446698202 
-% La politique salariale de Buffer et notamment sa transparence, https://buffer.com/salary. 
-% Jurgen Apello : https://www.youtube.com/watch?v=VqujZnZWTbE 
-% FoodCoop et sa commission de discipline : https://foodcooplefilm.com/ 
-% Peter Senge, La cinquième discipline, 2015, ISBN: 978-2212559378.
-% Isaac Getz, Brian Carney, Liberté & cie : Quand la liberté des salariés fait le succès des entreprises, 2016, ISBN: 978-2081379510. 
-% Frédéric Laloux, Reinventing organizations : Vers des communautés de travail inspirées, 2015, ISBN: 978-2354561055.
-% Jean François Zobrist, La belle histoire de Favi : l'entreprise qui croit que l'homme est bon Tome 1 Nos belles histoires, 2014, ISBN: 978-2917587003.
-% Jean François Zobrist, La belle histoire de Favi : l'entreprise qui croit que l'homme est bon Tome 2 Notre management et nos outils, 2014, ISBN: 978-2917587010
-% Shoji Shiba, Le management selon Shiba : Capter les signaux du changement pour une performance durable, 2007, ISBN: 978-2212538434.
-% J’ajouterai bien Azae et Goood ici. C’est la discussion sur la répartition des risques entre vous qui nous a mené au modèle sur le variable, et des exemples de mise en oeuvre sont clairement inspirées de Goood! (ah je vous l'avais pas dit?)
+
+\nocite{*}
+\bibliography{biblio}{}
+\bibliographystyle{plain}
 
 \end{document}
 
