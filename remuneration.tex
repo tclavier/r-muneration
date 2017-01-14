@@ -13,6 +13,8 @@
 \usepackage{cite}
 \usepackage[strings]{underscore}
 
+\setlength{\parskip}{0.6\baselineskip}
+
 \newcommand{\assemblee}[1]{%
   \begin{tcolorbox}[colframe=DarkPlum,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=white]
     \begin{tabular}{m{1cm} m{0.86\textwidth}}
@@ -49,7 +51,6 @@
 
 \begin{document}
 
-\pagestyle{plain}
 \maketitle
 \newpage
 
@@ -60,8 +61,8 @@
   \begin{center}
     \includegraphics[width=\textwidth]{includes/remuneration}
   \end{center}
-  \caption{Planning de l'intervention}
-  \label{planning}
+  \caption{Notre réponse en image}
+  \label{main}
 \end{figure}
 
 
@@ -70,33 +71,45 @@
 %SAFE (SAlaire Fixe Évolutif) 
 
 \section{Remerciements}
+
 Nous tenons à remercier ANEO pour avoir publié ce concours sans lequel nous n’aurions pas pris le temps de cette mise en commune de nos réflexions. Ces quelques heures passées à échanger sur le sujet ont été une source de satisfaction importante, de prise de conscience et d’idéation maîtrisée. Si c’était à refaire, nous le referions avec grand plaisir. Rendez-vous dans 5 ans, le contexte aura encore évolué et nous pourrons à nouveau nous poser la question. 
+
 Nous tenons aussi à remercier chaleureusement les personnes qui nous ont accordé une denrée rare et même très rare, qu’est leur temps, pour relire ce document et nous permettre d’en faire la meilleure version possible que nous sommes en mesure de faire. Un grand merci à :
-Pierre Salanon : l’homme aux convictions qui va nous permettre de faire du développement durable une réalité au-delà du marketing
-Michel Chaudy : l’auteur de l’ouvrage “Faire des hommes libres” qui avec sa connaissance de l’économie sociale et solidaire et sa connaissance des communautés de travail de Marcel Barbu a su nous challenger sur 
-Ludovic Quesnelle : un manager d’exception qui allie avec finesse autoritarisme et liberté
-Céline : pour son pragmatisme
-Charles Suire : ancien des communautés de travail pour son regard plein de bienveillance et d’espoir pour nos futures générations pour un monde moins individualistes et plus solidaire
-Anne Dupérat :
+\begin{itemize}
+  \item Pierre Salanon : l’homme aux convictions qui va nous permettre de faire du développement durable une réalité au-delà du marketing
+  \item Michel Chaudy : l’auteur de l’ouvrage “Faire des hommes libres” qui avec sa connaissance de l’économie sociale et solidaire et sa connaissance des communautés de travail de Marcel Barbu a su nous challenger sur 
+  \item Ludovic Quesnelle : un manager d’exception qui allie avec finesse autoritarisme et liberté
+  \item Céline : pour son pragmatisme
+  \item Charles Suire : ancien des communautés de travail pour son regard plein de bienveillance et d’espoir pour nos futures générations pour un monde moins individualistes et plus solidaire
+  \item Anne Dupérat : pour ses remarques inspirantes
+\end{itemize}
 
 
 \section{Avant-propos}
 \subsection{Pourquoi nous participons à ce concours}
  Ajiro.fr\footnote{http://ajiro.fr} est un collectif de coach qui cherche à développer des entreprises saines et humaine. Ce sujet, qui nous tient à coeur, vise à remettre l’humain au centre des organisations et à développer le bonheur au travail.
+
  La rémunération est un sujet important dans cette recherche, c’est en effet un élément très visible sur le niveau d’équité, de transparence et de confiance nécessaire à l'épanouissement et à l’engagement de chacun.
+
  La participation à ce concours nous apparaît donc comme une opportunité de formaliser nos idées sur ce sujet.
 
 \subsection{Rappel de la demande du concours}
- Disponible sur : https://www.linkedin.com/pulse/participez-au-concours-aneo-innovation-sur-la-benoist-debay?trk=v-feed 
+ Disponible sur : \url{https://www.linkedin.com/pulse/participez-au-concours-aneo-innovation-sur-la-benoist-debay?trk=v-feed}
+
  “ANEO souhaite réfléchir à des modes de rémunération innovants, et plus précisément à la dé-corrélation de l’évaluation annuelle et de la rémunération.
+ 
  Qu’est-ce qui les déclenche, selon quelles modalités, à quelles fréquences... ?
+ 
  Dans nos typologies d’entreprises, les augmentations/variations de salaire sont dépendantes de notre performance individuelle. Nous « subissons » un entretien individuel qui permet d’évaluer notre performance afin de permettre de nous attribuer un pourcentage d’augmentation. 
+ 
  Chez ANEO, nous avons la conviction que les évaluations individuelles sont une grande source de stress et ne permettent ni d’améliorer la performance du collectif, ni de nous faire grandir à titre personnel.
+ 
  Décrivez avec le plus de précisions possibles un processus d’augmentation ne se basant pas sur l’évaluation annuelle.”
 
 \subsection{Notre compréhension de votre demande}
- “Proposez-nous un système innovant de rémunération des salariés dans un contexte où l’entretien annuel n’existe plus et qui permette de contribuer à un système permettant de grandir à titre individuel et d’améliorer la performance du collectif.”
- Nous ne traitons dans le cadre de cette proposition ni d’évolution des modes de rémunération ni de la rémunération du capital. Notre proposition présente un fonctionnement en mode cible (tel que nous l’imaginons aujourd’hui). Nous ne présentons pas ici comment passer d’un système de rémunération “classique”, “actuel” au mode de rémunération cible imaginé.  
+ <<Proposez-nous un système innovant de rémunération des salariés dans un contexte où l’entretien annuel n’existe plus et qui permette de contribuer à un système permettant de grandir à titre individuel et d’améliorer la performance du collectif.>>
+
+ Nous ne traitons dans le cadre de cette proposition ni d’évolution des modes de rémunération ni de la rémunération du capital. Notre proposition présente un fonctionnement en mode cible (tel que nous l’imaginons aujourd’hui). Nous ne présentons pas ici comment passer d’un système de rémunération <<classique>>, <<actuel>> au mode de rémunération cible imaginé.  
 
 \subsection{Définitions}
  Avant de commencer nous souhaitons établir un vocabulaire commun afin de nous accorder sur la signification des mots que nous allons employer.
@@ -208,9 +221,11 @@ L'entretien annuel tel qu’il existe permet de :
 
  \regle{Le salaire fixe est libre et défini par chaque salarié sur la base d’une grille de salaire. }
 
- La grille de salaires est définie par l’ensemble des salariés (“assemblée”). Elle pourrait être étayée de persona  (“assemblée”) permettant aux salariés de se comparer et de se situer sur l’échelle et ainsi de se positionner par rapport à un niveau de salaire qu’il estime juste pour lui et pour l’entreprise. 
+ \assemblee{La grille de salaires est définie par l’ensemble des salariés. Elle pourrait être étayée de persona permettant aux salariés de se comparer et de se situer sur l’échelle et ainsi de se positionner par rapport à un niveau de salaire qu’il estime juste pour lui et pour l’entreprise.}
 
- La RH (ressources humaines) ou une autre entité (communauté de pairs) pourra aider les salariés à se positionner dans la grille. L'entité accompagnant le salarié est à définir par l'ensemble des salariés (“assemblée”).
+ La RH (ressources humaines) ou une autre entité (communauté de pairs) pourra aider les salariés à se positionner dans la grille. 
+ 
+ \assemblee{L'entité accompagnant le salarié est à définir par l'ensemble des salariés.}
  
  Un tel système, où le salarié choisit son salaire nécessite de disposer des informations et des outils pour évaluer l’impact sur l’entreprise du choix du salaire ; nous pressentons la nécessité de disposer d’un outil pour faire des simulations pour aider les salariés à prendre les décisions.
  
@@ -260,8 +275,10 @@ L'entretien annuel tel qu’il existe permet de :
 
  \subsubsection{Le salaire Variable}
  Le variable : le salarié peut choisir de rendre une partie de son salaire fixe variable, pour prendre à sa charge une partie du risque de l’entreprise. En contrepartie, ce variable sera bonifié. 
+
  Le salarié a la possibilité de choisir une part de variable sur son salaire. Ce dispositif a pour but de prendre en compte une volonté individuelle de participer à la prise de risque. Cela se traduit par le choix d’une répartition du salaire issu de la grille entre salaire fixe versé tous les mois et un variable qui sera reversé à la clôture des comptes. 
- La réduction du salaire fixe versé mensuellement permet à l’entreprise de disposer de plus de liquidités. Lors de la redistribution des bénéfices en fin d’exercice, les personnes qui ont fait le choix de cette prise de risque sont “remboursées” en priorité ; ce “prêt” à l’entreprise est bonifié par un coefficient multiplicateur qui sera défini par l’ensemble des salariés (“assemblée”). Dans le cas où les bénéfices de l’entreprise ne permettent pas de couvrir les variables volontaires bonifiés, une répartition sera faite au prorata de la part de salaire “prêté” par le salarié à l’entreprise.
+ 
+ La réduction du salaire fixe versé mensuellement permet à l’entreprise de disposer de plus de liquidités. Lors de la redistribution des bénéfices en fin d’exercice, les personnes qui ont fait le choix de cette prise de risque sont “remboursées” en priorité ; ce “prêt” à l’entreprise est bonifié par un coefficient multiplicateur qui sera défini par l’ensemble des salariés \faUsers. Dans le cas où les bénéfices de l’entreprise ne permettent pas de couvrir les variables volontaires bonifiés, une répartition sera faite au prorata de la part de salaire “prêté” par le salarié à l’entreprise.
 
 \subsection{La redistribution des bénéfices}
 \actuel{Aujourd’hui le variable est indexé sur l‘atteinte d’objectifs individuels. Ce système favorise la compétition puisqu’à enveloppe de redistribution égale, celui qui en aura le plus est celui qui pourra justifier de l’atteinte la plus proche de ses objectifs. Cette évaluation étant subjective, il s'ensuit un jeu de séduction et de compétition (parfois inconsciemment) pour être celui qui brille le plus auprès de ceux qui vont prendre les décisions.}
@@ -336,7 +353,8 @@ L'entretien annuel tel qu’il existe permet de :
 
  Point important, la transparence est réalisée en mode poussé : les modifications de salaires sont notifiées à l’ensemble des salariés. 
 
- L’ensemble des salariés peut définir des modalités plus précise de revue des salaires (“assemblée”). Voici quelques exemples :
+ \assemblee{L’ensemble des salariés peut définir des modalités plus précise de revue des salaires. }
+ Voici quelques exemples :
  \begin{itemize}
    \item Les revues de salaire seront réalisées par chacun et un système de revue par les autres salariés est organisé (la possibilité de donner un avis, via un outil par exemple).
    \item Les revues de salaire seront réalisées par chacun à des périodes clés définies. 
@@ -352,7 +370,7 @@ L'entretien annuel tel qu’il existe permet de :
 
  Le système de rémunération cible décrit ici ne sera applicable qu’après une certaine période que nous appelons le “postulat”. Cette période de “postulat” est une période d’acculturation du nouvel embauché à la culture de l’entreprise. Elle doit entre autre lui permettre de comprendre comment fonctionne le système de rémunération pour lui permettre de jouer avec les mêmes règles du jeu en toute connaissance de causes. Ici l’hypothèse est que la durée de postulat dure 12 mois. 
 
- La durée de ce postulat peut être soumise à une approbation de l’ensemble des acteurs de l’entreprise (“assemblée”).
+ \assemblee{La durée de ce postulat peut être soumise à une approbation de l’ensemble des acteurs de l’entreprise.}
 
  Le nouvel arrivant intègre l’entreprise en tant que “postulant” et conserve son salaire d’embauche pendant un an, le temps de comprendre le mode de fonctionnement et d’acquérir les éléments de référence lui permettant de se positionner dans la culture.  
 
