@@ -18,21 +18,25 @@
 
 \newcommand{\assemblee}[1]{%
   \begin{tcolorbox}[colframe=DarkPlum,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=white]
-    \begin{tabular}{m{1cm} m{0.86\textwidth}}
-      {\huge \faUsers} & #1 \\
+    \begin{tabular}{m{1.5cm} m{11cm}}
+      \includegraphics[width=1.5cm]{includes/team} & #1 \\
     \end{tabular}
   \end{tcolorbox}
 }
 
 \newcommand{\actuel}[1]{%
-  \begin{tcolorbox}[colframe=DarkButter,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=Aluminium2]
-    \textit{#1}
+  \begin{tcolorbox}[colframe=DarkButter,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=Aluminium1]
+    \begin{tabular}{m{1.5cm} m{11cm}}
+      \includegraphics[width=1.5cm]{includes/now} & #1 \\
+    \end{tabular}
   \end{tcolorbox}
 }
 
 \newcommand{\regle}[1]{%
   \begin{tcolorbox}[colframe=DarkOrange,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=LightOrange]
-  \textbf{#1}
+    \begin{tabular}{m{1.0cm} m{11.5cm}}
+      \includegraphics[width=1.0cm]{includes/rules} & #1 \\
+    \end{tabular}
   \end{tcolorbox}
 }
 
@@ -136,7 +140,7 @@ Nous tenons aussi à remercier chaleureusement les personnes qui nous ont accord
 
   \assemblee{les éléments laissés à la discrétion de l'entreprise sont identifié dans le reste du texte de cette façon.}
 
-  \actuel{les modes de fonctionnement actuels sont rédigés comme cela dans les texte ci-dessous.}
+  \actuel{les modes de fonctionnement actuels sont rédigés comme cela dans le texte ci-dessous.}
 
   \regle{Enfin, les règles applicables à notre modèle de rémunération sont indiquées comme ceci.}
 
