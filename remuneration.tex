@@ -11,9 +11,10 @@
 \usepackage{array}
 
 \usepackage{cite}
+\usepackage{natbib}
 \usepackage[strings]{underscore}
 
-\setlength{\parskip}{0.6\baselineskip}
+\setlength{\parskip}{0.4\baselineskip}
 
 \newcommand{\assemblee}[1]{%
   \begin{tcolorbox}[colframe=DarkPlum,boxrule=2pt,arc=4pt,left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,colback=white]
@@ -278,6 +279,7 @@ L'entretien annuel tel qu’il existe permet de :
 
  Le salarié a la possibilité de choisir une part de variable sur son salaire. Ce dispositif a pour but de prendre en compte une volonté individuelle de participer à la prise de risque. Cela se traduit par le choix d’une répartition du salaire issu de la grille entre salaire fixe versé tous les mois et un variable qui sera reversé à la clôture des comptes. 
  
+ %TODO: choose \faUsers or \assemblee
  La réduction du salaire fixe versé mensuellement permet à l’entreprise de disposer de plus de liquidités. Lors de la redistribution des bénéfices en fin d’exercice, les personnes qui ont fait le choix de cette prise de risque sont “remboursées” en priorité ; ce “prêt” à l’entreprise est bonifié par un coefficient multiplicateur qui sera défini par l’ensemble des salariés \faUsers. Dans le cas où les bénéfices de l’entreprise ne permettent pas de couvrir les variables volontaires bonifiés, une répartition sera faite au prorata de la part de salaire “prêté” par le salarié à l’entreprise.
 
 \subsection{La redistribution des bénéfices}
@@ -339,10 +341,11 @@ L'entretien annuel tel qu’il existe permet de :
 \subsection{Les variations de salaire}
  Les variations de salaire sont de plusieurs natures : 
  \begin{itemize}
-   \item Soit systématiques
-   \item Soit à l’initiative du salarié
+   \item Soit systématiques.
+   \item Soit à l’initiative du salarié.
  \end{itemize}
 
+ \vspace{3mm}
  \regle{Systématique : le salaire suit le coût de la vie ; la grille évolue avec l’inflation.}
 
  Tous les ans la grille des salaires peut être réévaluée en fonction de l’inflation définie par l’INSEE.
@@ -472,7 +475,7 @@ L'entretien annuel tel qu’il existe permet de :
 
 \nocite{*}
 \bibliography{biblio}{}
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 
 \end{document}
 
