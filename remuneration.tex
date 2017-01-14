@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage[francais]{babel}
+\usepackage[frenchb]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
@@ -10,9 +10,9 @@
 \usepackage{fontawesome}
 \usepackage{array}
 
-\usepackage{cite}
-\usepackage{natbib}
-\usepackage[strings]{underscore}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\bibliography{biblio}
 
 \setlength{\parskip}{0.4\baselineskip}
 
@@ -474,8 +474,7 @@ L'entretien annuel tel qu’il existe permet de :
  D’autre part, nous pensons qu’il faut être vigilant et accompagner de façon plus attentive les salariés ayant une faible estime de soi et qui pourraient se retrouver en difficulté.
 
 \nocite{*}
-\bibliography{biblio}{}
-\bibliographystyle{plainnat}
+\printbibliography
 
 \end{document}
 
