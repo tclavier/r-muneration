@@ -9,4 +9,4 @@ else
 fi
 
 docker build --pull $BUILD_OPTS -t container .
-docker run -it -v $(pwd):/workspace/ container 
+docker run -it --user 1000:1000 -v $(pwd):/workspace/ container 
