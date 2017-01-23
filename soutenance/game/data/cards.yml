@@ -1,12 +1,41 @@
 ---
+- title: Bienvenue ! 
+  icon:
+  description: Entretien d'embauche.
+
 - title: Journée de rémunération
   icon:
-  description: Nous somme le 25 mai 2017, c'est la première journée de rémunération. 
+  description: Nous somme le 25 mai 2017, c'est la première journée de rémunération. Nous avons fait des bénéfices.
 
-- title: "Mon title 2"
+- title: Au revoir mercenaire !
   icon:
-  description: un truc !
+  description: L'entreprise ne souhaite pas assumer votre prétention salariale. Commission de rupture ... explication et séparation en bonne entente. Commission d'aide ...
 
-- title:
+- title: 1 an déjà 
   icon:
-  description:
+  description: Célébration puis choix de rémunération dans la grille, possibilité de changé de catégorie et choix du variable.
+
+- title: Journées de rémunération
+  icon:
+  description: Nous somme le 24 mai 2018, les chiffres sont catastrophiques ... 
+
+- title: Coup dure
+  icon:
+  description: Problème familiale, vous vous retrouvez avec une nouvelle personne à charge il vous faudrait 500€ de plus par mois.
+
+- title: Je suis trop payé
+  icon:
+  description: J'ai trop d'activités en dehors de l'entreprise, je ne souhaite plus m'investir autant il faudrait revoir ma rémunération.
+
+- title: Je ne me sent pas à ma place
+  icon:
+  description: Trop vieux pour ces conneries, changement de poste
+
+- title: Arrivée d'un bébé
+  icon:
+  description: Réévalutation exceptionnel.
+
+- title: Rémunération du capital trop grosse
+  icon:
+  description: Nous somme le 23 mai 2019, les journée de la rémunération reprennent, les chiffres sont bon, mais les actionnaires veulent compenser leurs pertes de l'année précédente.
+
