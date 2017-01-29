@@ -4,8 +4,11 @@ run apt-get update \
     && apt-get install -y \
       bundler \
       libcairo2-dev \
+      libpango1.0-dev \
       ruby \
     && apt-get clean 
-add . /workspace
+add Gemfile /workspace/Gemfile
+add Gemfile.lock /workspace/Gemfile.lock
 workdir /workspace
 run bundle install 
+add . /workspace
