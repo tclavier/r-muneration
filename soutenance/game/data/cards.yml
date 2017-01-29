@@ -1,23 +1,23 @@
 ---
 - title: Bienvenue ! 
   icon:
-  description: Entretien d'embauche.
+  description: Bienvenue chez Dupont & Dupond, vous intégrez aujourd'hui notre société et Léo, Léa et Léon vont vous accompagner durant cette première journée.
 
 - title: Journée de rémunération
   icon:
-  description: Nous somme le 25 mai 2017, c'est la première journée de rémunération. Nous avons fait des bénéfices.
+  description: Nous somme le 25 mai 2017, c'est la première journée de rémunération. Tout le monde est réunie dans nos locaux parisiens, Léonie nous présentent les chiffres, nous avons fait suffisement de bénéfices pour avoir une participation.
 
 - title: Au revoir mercenaire !
   icon:
-  description: L'entreprise ne souhaite pas assumer votre prétention salariale. Commission de rupture ... explication et séparation en bonne entente. Commission d'aide ...
+  description: L'entreprise ne souhaite pas assumer votre prétention salariale. Léo, Léa et Léon ont été tirrés au sort pour composer la commission de rupture. 
 
 - title: 1 an déjà 
   icon:
-  description: Célébration puis choix de rémunération dans la grille, possibilité de changé de catégorie et choix du variable.
+  description: Nous somme le 14 février 2018, Arpès avoir célébrer votre arrivée dans la société, nous allons vous accompagner pour choisir votre rémunération.
 
 - title: Journées de rémunération
   icon:
-  description: Nous somme le 24 mai 2018, les chiffres sont catastrophiques ... 
+  description: Nous somme le 24 mai 2018, Lola nous présentent les chiffres, ils sont catastrophiques ... 
 
 - title: Coup dure
   icon:
@@ -29,7 +29,7 @@
 
 - title: Je ne me sent pas à ma place
   icon:
-  description: Trop vieux pour ces conneries, changement de poste
+  description: Trop vieux pour ces conneries, changement de responsabilité
 
 - title: Arrivée d'un bébé
   icon:
