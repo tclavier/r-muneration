@@ -116,24 +116,40 @@ item:
 
 etp_icon:
   extends: 'icon'
-  y: 650
+  y: 610
 
 etp_text:
   extends: 'item'
-  y: 650
+  y: 610
 
 category_icon:
   extends: 'icon'
-  y: 690
+  y: 650
 
 category_text:
   extends: 'item'
-  y: 690
+  y: 650
 
 variable_icon:
   extends: 'icon'
-  y: 730
+  y: 690
 
 variable_text:
   extends: 'item'
+  y: 690
+
+xp_icon:
+  extends: 'icon'
   y: 730
+
+xp_text:
+  extends: 'item'
+  y: 730
+
+anciennete_icon:
+  extends: 'icon'
+  y: 770
+
+anciennete_text:
+  extends: 'item'
+  y: 770

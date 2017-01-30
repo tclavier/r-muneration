@@ -74,8 +74,11 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   svg file: 'icons/van-damme-split.svg', layout: 'variable_icon'
   text str: Personas.map { |e| e["Variable"]}, layout: 'variable_text'
 
-  svg file: 'icons/power-lightning.svg', x: 300, y: 650, width: 100, height: :scale
-  svg file: 'icons/medal.svg', x: 600, y: 650, width: 100, height: :scale
+  svg file: 'icons/power-lightning.svg', layout: 'xp_icon'
+  text str: Personas.map { |e| e["XP"]}, layout: 'xp_text'
+
+  svg file: 'icons/medal.svg', layout: 'anciennete_icon'
+  text str: Personas.map { |e| e["ancienneté"]}, layout: 'anciennete_text'
 
   #debug_grid
 
