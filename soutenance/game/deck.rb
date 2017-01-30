@@ -24,30 +24,25 @@ def debug_grid()
 end
 
 
-Dir["data/*.yml"].each do |data|
-  puts "processing #{data}"
-  style = File.basename(data, '.yml')
-  values = YAML.load_file(data)
+Cards = YAML.load_file('data/cards.yml')
+Squib::Deck.new(cards: Cards.size, layout: 'layout_poker.yml') do
+  background color: 'white'
 
-  Squib::Deck.new(cards: values.size, layout: 'layout_poker.yml') do
-    background color: 'white'
+  rect layout: 'cut'
+  png file: 'ginkgo.png', layout: 'safe'
 
-    rect layout: 'cut'
-    png file: 'ginkgo.png', layout: 'safe'
+  rect layout: 'title_background'
+  text str: Cards.map { |e| e["title"]}, layout: 'title'
 
-    rect layout: 'title_background'
-    text str: values.map { |e| e["title"]}, layout: 'title'
+  svg file: Cards.map {|i| i['icon'] }, layout: 'art'
 
-    svg file: values.map {|i| i['icon'] }, layout: 'art'
+  rect layout: 'description_background'
+  text str: Cards.map { |e| e["description"]}, layout: 'description'
 
-    rect layout: 'description_background'
-    text str: values.map { |e| e["description"]}, layout: 'description'
+  text str: Copywright, layout: 'copyright'
+  cutmark 40, 40, 785, 1085, 10
 
-    text str: Copywright, layout: 'copyright'
-    cutmark 40, 40, 785, 1085, 10
+  #debug_grid
 
-    #debug_grid
-
-    save format: :pdf, file: "poker-#{style}.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
-  end
+  save format: :pdf, file: "cards.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end
