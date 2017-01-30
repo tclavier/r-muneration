@@ -27,14 +27,14 @@
   icon: icons/crown.svg
   description: J'ai pris en charge un grand nombre d'activités en dehors de l'entreprise. Je ne souhaite plus m'investir autant dans l'entreprise. J'aimerai revoir ma rémunération.
 
-- title: Je ne me sent pas à ma place
+- title: Je ne me sens pas à ma place
   icon: icons/stone-throne.svg
-  description: Trop vieux pour ces conneries, changement de responsabilité
+  description: "Trop vieux pour ces conneries". Je ne peux plus assumer physiquement mes responsabilités d'avant. J'ai envie de contribuer différemment. Je fais appel à la commission d'aide.
 
 - title: Arrivée d'un bébé
   icon: icons/baby-face.svg
-  description: Réévalutation exceptionnel.
+  description: Je suis heureux(se). J'accueille un nouveau venu dans ma famille. Mon fils va naître dans 6 mois. Je souhaite réévaluer mon salaire. 
 
-- title: Rémunération du capital trop grosse
+- title: Rémunération incomprise du capital
   icon: icons/robber.svg
-  description: Nous somme le 23 mai 2019, les journée de la rémunération reprennent, les chiffres sont bon, mais les actionnaires veulent compenser leurs pertes de l'année précédente.
+  description: Nous sommes le 23 mai 2019. Les journées de la rémunération reprennent. Nous avons trouvé une nouvelle offre qui plait grâce à Léon. Les chiffres sont bons. Les actionnaires veulent compenser leurs pertes de l'année précédente.
