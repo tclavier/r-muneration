@@ -29,7 +29,8 @@
 
 - title: Je ne me sens pas à ma place
   icon: icons/stone-throne.svg
-  description: "Trop vieux pour ces conneries". Je ne peux plus assumer physiquement mes responsabilités d'avant. J'ai envie de contribuer différemment. Je fais appel à la commission d'aide.
+  description: |
+    "Trop vieux pour ces conneries". Je ne peux plus assumer physiquement mes responsabilités d'avant. J'ai envie de contribuer différemment. Je fais appel à la commission d'aide.
 
 - title: Arrivée d'un bébé
   icon: icons/baby-face.svg

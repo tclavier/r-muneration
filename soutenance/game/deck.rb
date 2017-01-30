@@ -33,9 +33,7 @@ Dir["data/*.yml"].each do |data|
     background color: 'white'
 
     rect layout: 'cut'
-    #rect layout: 'safe'
     png file: 'ginkgo.png', layout: 'safe'
-    rect layout: 'inside'
     svg file: values.map {|i| i['icon'] }, layout: 'art'
 
     rect layout: 'title_background'
