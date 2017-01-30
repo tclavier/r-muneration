@@ -106,8 +106,8 @@ icon:
   height: 30
 
 item:
-  x: 160
-  width: 540
+  x: 180
+  width: 520
   height: 30
   font_size: 30
   align: left
