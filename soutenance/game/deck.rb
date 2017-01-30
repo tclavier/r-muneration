@@ -65,6 +65,7 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
 
+
   svg file: 'icons/sands-of-time.svg', layout: 'etp_icon'
   text str: Personas.map { |e| e["ETP"]}, layout: 'etp_text'
 
@@ -73,6 +74,8 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
 
   svg file: 'icons/van-damme-split.svg', layout: 'variable_icon'
   text str: Personas.map { |e| e["Variable"]}, layout: 'variable_text'
+
+  svg file: 'icons/power-lightning.svg', x: 300, y: 650, width: 100, height: :scale
 
   #debug_grid
 
