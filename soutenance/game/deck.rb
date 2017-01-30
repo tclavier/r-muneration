@@ -67,6 +67,7 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
 
   svg file: 'icons/sands-of-time.svg', x: 100, y: 500, width: 100, height: :scale
   svg file: 'icons/take-my-money.svg', x: 100, y: 650, width: 100, height: :scale
+  svg file: 'icons/van-damme-split.svg', x: 100, y: 750, width: 100, height: :scale
 
 
   #debug_grid
