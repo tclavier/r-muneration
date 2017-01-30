@@ -19,7 +19,6 @@ safe:
   fill_color: "lightgray"
   crop_width: 675
   crop_height: 975
-#  crop_corner_radius: 40
 
 text:
   x: 125
@@ -31,15 +30,14 @@ text:
 background:
   x: 100
   width: 625
-  radius: 40
+  radius: 10
   fill_color: "#ffffffa0"
   stroke_width: 0
 
 title_background:
   extends: 'background'
-  fill_color: '#CD334910'
-  y: 90
-  height: 160
+  y: 110
+  height: 120
 
 title:
   extends: 'text'
@@ -47,6 +45,15 @@ title:
   height: 140
   font_size: 40
   color: "ajiro_red"
+
+art:
+  x: 272
+  y: 270
+  width: 280
+  height: 280
+  mask: 'ajiro_blue'
+  align: center
+  valign: middle
 
 description_background:
   extends: 'background'
@@ -71,12 +78,3 @@ copyright:
   align: center
   valign: bottom
   font: "Linux Biolinum O"
-
-art:
-  x: 272
-  y: 270
-  width: 280
-  height: 280
-  mask: 'ajiro_blue'
-  align: center
-  valign: middle

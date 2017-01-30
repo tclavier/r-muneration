@@ -38,7 +38,7 @@ Dir["data/*.yml"].each do |data|
     rect layout: 'inside'
     svg file: values.map {|i| i['icon'] }, layout: 'art'
 
-    #rect layout: 'title_background'
+    rect layout: 'title_background'
     text str: values.map { |e| e["title"]}, layout: 'title'
 
     svg file: values.map {|i| i['icon'] }, layout: 'art'
