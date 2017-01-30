@@ -1,24 +1,54 @@
 ---
 - title : Léo
-  icon : olivier.albiez.jpg
-  description : Temps plein, catégorie C, 40% de variable, célibataire, 3 ans d'ancienneté, 5 d'expérience professionnelle, consultant sénior.
+  icon : olivier.albiez.png
+  ETP : Temps plein
+  Catégorie : C
+  Variable : 40% 
+  XP : 5
+  ancienneté : 3 ans
+  description : célibataire, consultant sénior
 
 - title : Léa
-  icon : mija.rabemananjara.jpg
-  description : Temps plein, catégorie C, 20% de variable, marié, jeune maman de Lucie, 4 ans d'ancienneté, 5 ans d'expérience professionnelle, ressources humaines.
+  icon : mija.rabemananjara.png
+  ETP : Temps plein
+  Catégorie : C
+  Variable : 20% 
+  XP : 5
+  ancienneté : 4 ans
+  description : mariée, jeune maman de Lucie, ressources humaines
 
 - title : Léon
-  icon : thomas.clavier.jpg
-  description : Présent depuis 6 mois dans l'entreprise, catégorie I, 0% de variable, célibataire, 6 mois d'ancienneté, 10 d'expérience professionnelle, commercial.
+  icon : thomas.clavier.png
+  ETP : Temps plein
+  Catégorie : I
+  Variable : 0% 
+  XP : 10
+  ancienneté : 6 mois
+  description : célibataire, commercial
 
 - title : Léonie
-  icon : Leonie.jpg
-  description : Temps plein, Catégorie I, 50% de variable, marié, 3 enfants, 9 ans d'ancienneté et 15 d'expérience professionnelle, responsable marketing.
+  icon : Leonie.png
+  ETP : Temps plein
+  Catégorie : I
+  Variable : 50% 
+  XP : 15
+  ancienneté : 9 ans
+  description : marié, 3 enfants, responsable marketing
 
 - title : Larry
-  icon : Larry.jpg
-  description : Temps plein, cétagorie B, 0% de variable, 8 mois d'ancienneté, jeune ingénieur qui sort d'école, consultant junior.
+  icon : Larry.png
+  ETP : Temps plein
+  Catégorie : B
+  Variable : 0% 
+  XP : 0, il sort de l'école
+  ancienneté : 8 mois
+  description : célibataire, consultant junior
 
 - title : Lola
-  icon : Lola.jpg
-  description : Temps plein, Catégorie F, 10% de variable, parent isolé avec 2 enfants, 2 ans d'ancienneté, 10 ans d'expérience professionnelle, consultante sénior.
+  icon : Lola.png
+  ETP : Temps plein
+  Catégorie : F
+  Variable : 10% 
+  XP : 10
+  ancienneté : 2 ans
+  description : parent isolé avec 2 enfants, consultante sénior
