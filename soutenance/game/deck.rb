@@ -18,14 +18,6 @@ def cutmark(top, left, right, bottom, size)
 end
 
 
-def sample(values, max)
-  if values.size > max then
-    return 0..max
-  else
-    return 0..values.size-1
-  end
-end
-
 Dir["data/*.yml"].each do |data|
   puts "processing #{data}"
   style = File.basename(data, '.yml')
