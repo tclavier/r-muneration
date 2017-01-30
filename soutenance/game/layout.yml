@@ -14,7 +14,7 @@ safe:
   y: 75
   width: 675
   height: 975
-  crop_corner_radius: 10 
+  crop_corner_radius: 10
 
 text:
   x: 125
@@ -52,6 +52,15 @@ art:
   mask: 'ajiro_blue'
   align: center
   valign: middle
+
+photo:
+  x: 272
+  y: 270
+  width: 280
+  height: 280
+  align: center
+  valign: middle
+
 
 description_background:
   extends: 'background'

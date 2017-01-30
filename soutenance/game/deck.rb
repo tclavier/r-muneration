@@ -46,3 +46,26 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout.yml') do
 
   save format: :pdf, file: "cards.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end
+
+Personas = YAML.load_file('data/personas.yml')
+Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
+  background color: 'white'
+
+  rect layout: 'cut'
+  png file: 'ginkgo.png', layout: 'safe'
+
+  rect layout: 'title_background'
+  text str: Personas.map { |e| e["title"]}, layout: 'title'
+
+  png file: Personas.map {|i| "images/#{i['icon'].downcase}" }, layout: 'photo'
+
+  rect layout: 'description_background'
+  text str: Personas.map { |e| e["description"]}, layout: 'description'
+
+  text str: Copywright, layout: 'copyright'
+  cutmark 40, 40, 785, 1085, 10
+
+  #debug_grid
+
+  save format: :pdf, file: "personas.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
+end
