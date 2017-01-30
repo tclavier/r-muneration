@@ -65,6 +65,8 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
 
+  rect layout: 'item_background'
+
   svg file: 'icons/sands-of-time.svg', layout: 'etp_icon'
   text str: Personas.map { |e| e["ETP"]}, layout: 'etp_text'
 

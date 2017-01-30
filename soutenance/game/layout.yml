@@ -54,10 +54,10 @@ art:
   valign: middle
 
 photo:
-  x: 272
+  x: 242
   y: 270
-  width: 280
-  height: 280
+  width: 340
+  height: 340
   align: center
   valign: middle
 
@@ -98,58 +98,80 @@ copyright:
   font_size: 14
   align: center
   valign: bottom
-  font: "Linux Biolinum O"
+  font: Linux Libertine
 
 icon:
+  width: 30
+  height: 30
+
+item_background:
+  extends: 'background'
+  y: 640
+  height: 150
+
+item:
+  height: 30
+  font_size: 20
+  align: left
+  valign: middle
+  font: Linux Libertine
+
+icon_left:
+  extends: icon
   x: 125
   width: 30
   height: 30
 
-item:
+item_left:
+  extends: item
   x: 180
+  width: 220
+
+icon_right:
+  extends: icon
+  x: 435
+
+item_right:
+  extends: item
+  x: 490
   width: 520
-  height: 30
-  font_size: 30
-  align: left
-  valign: middle
-  font: "Linux Biolinum O"
 
 etp_icon:
-  extends: 'icon'
-  y: 610
+  extends: 'icon_left'
+  y: 660
 
 etp_text:
-  extends: 'item'
-  y: 610
+  extends: 'item_left'
+  y: 660
 
 category_icon:
-  extends: 'icon'
-  y: 650
+  extends: 'icon_left'
+  y: 700
 
 category_text:
-  extends: 'item'
-  y: 650
+  extends: 'item_left'
+  y: 700
 
 variable_icon:
-  extends: 'icon'
-  y: 690
+  extends: 'icon_right'
+  y: 700
 
 variable_text:
-  extends: 'item'
-  y: 690
+  extends: 'item_right'
+  y: 700
 
 xp_icon:
-  extends: 'icon'
-  y: 730
+  extends: 'icon_left'
+  y: 740
 
 xp_text:
-  extends: 'item'
-  y: 730
+  extends: 'item_left'
+  y: 740
 
 anciennete_icon:
-  extends: 'icon'
-  y: 770
+  extends: 'icon_right'
+  y: 740
 
 anciennete_text:
-  extends: 'item'
-  y: 770
+  extends: 'item_right'
+  y: 740
