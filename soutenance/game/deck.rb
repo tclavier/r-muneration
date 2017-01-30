@@ -55,7 +55,8 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
-  text str: Personas.map { |e| e["title"]}, layout: 'title'
+  text str: Personas.map { |e| e["title"]}, layout: 'persona_title'
+  text str: Personas.map { |e| e["role"]}, layout: 'persona_role'
 
   png file: Personas.map {|i| "images/#{i['icon'].downcase}" }, layout: 'photo'
 

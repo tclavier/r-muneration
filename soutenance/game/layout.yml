@@ -38,11 +38,27 @@ title_background:
 
 title:
   extends: 'text'
-  y: 100
+  y: 110
   height: 140
   font_size: 40
   color: "ajiro_blue"
   font: Linux Libertine Bold
+
+persona_title:
+  extends: 'title'
+  y: 130
+  height: 40
+  font_size: 40
+  color: "ajiro_blue"
+  font: Linux Libertine Bold
+
+persona_role:
+  extends: 'text'
+  y: 190
+  height: 30
+  font_size: 25
+  color: "ajiro_blue"
+  font: Linux Libertine Italic
 
 art:
   x: 272

@@ -1,54 +1,60 @@
 ---
 - title : Léo
+  role: Consultant sénior
   icon : olivier.albiez.png
   ETP : Temps plein
   Catégorie : Catégorie C
   Variable : 40% de variable
   XP : 5 ans d'expérience
   ancienneté : 3 ans d'ancienneté
-  description : célibataire, consultant sénior
+  description : célibataire
 
 - title : Léa
+  role: Ressources humaines
   icon : mija.rabemananjara.png
   ETP : Temps plein
   Catégorie : Catégorie C
   Variable : 20% de variable
   XP : 5 ans d'expérience
   ancienneté : 4 ans d'ancienneté
-  description : mariée, jeune maman de Lucie, ressources humaines
+  description : mariée, jeune maman de Lucie
 
 - title : Léon
+  role: Commercial
   icon : thomas.clavier.png
   ETP : Temps plein
   Catégorie : Catégorie I
   Variable : 0% de variable
   XP : 10 ans d'expérience
   ancienneté : 6 mois d'ancienneté
-  description : célibataire, commercial
+  description : célibataire
 
 - title : Léonie
+  role: Responsable marketing
   icon : Leonie.png
   ETP : Temps plein
   Catégorie : Catégorie I
   Variable : 50% de variable
   XP : 15 ans d'expérience
   ancienneté : 9 ans d'ancienneté
-  description : marié, 3 enfants, responsable marketing
+  description : marié, 3 enfants
 
 - title : Larry
+  role: Consultant junior
   icon : Larry.png
   ETP : Temps plein
   Catégorie : Catégorie B
   Variable : 0% de variable
   XP : 0, il sort de l'école
   ancienneté : 8 mois d'ancienneté
-  description : célibataire, consultant junior
+  description : célibataire
 
 - title : Lola
+  role: Consultante sénior
   icon : Lola.png
   ETP : Temps plein
   Catégorie : Catégorie F
   Variable : 10% de variable
   XP : 10 ans d'expérience
   ancienneté : 2 ans d'ancienneté
-  description : parent isolé avec 2 enfants, consultante sénior
+  description : parent isolé avec 2 enfants
