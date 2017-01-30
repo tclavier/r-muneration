@@ -34,11 +34,16 @@ Dir["data/*.yml"].each do |data|
 
     rect layout: 'cut'
     rect layout: 'safe'
-    rect layout: 'inside'
-    svg file: values.map {|i| i['icon'] }, layout: 'art'
 
     text str: values.map { |e| e["title"]}, layout: 'title'
+
+    svg file: values.map {|i| i['icon'] }, layout: 'art'
+
+    rect layout: 'description_background'
     text str: values.map { |e| e["description"]}, layout: 'description'
+    #rect layout: 'title'
+    #rect layout: 'description'
+    #rect layout: 'art'
 
     text str: Copywright, layout: 'copyright'
     cutmark 40, 40, 785, 1085, 10
