@@ -47,7 +47,7 @@ description:
   justify: true
   valign: middle
   font: "Linux Libertine"
-  font_size: 20
+  font_size: 25
 
 copyright:
   x: 75

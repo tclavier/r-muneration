@@ -32,9 +32,9 @@
   description: Trop vieux pour ces conneries, changement de responsabilité
 
 - title: Arrivée d'un bébé
-  icon:
+  icon: icons/baby-face.svg
   description: Réévalutation exceptionnel.
 
 - title: Rémunération du capital trop grosse
-  icon: icons/coins.svg
+  icon: icons/robber.svg
   description: Nous somme le 23 mai 2019, les journée de la rémunération reprennent, les chiffres sont bon, mais les actionnaires veulent compenser leurs pertes de l'année précédente.
