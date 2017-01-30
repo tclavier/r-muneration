@@ -29,7 +29,7 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout.yml') do
   background color: 'white'
 
   rect layout: 'cut'
-  png file: 'ginkgo.png', layout: 'safe'
+  png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
   text str: Cards.map { |e| e["title"]}, layout: 'title'
