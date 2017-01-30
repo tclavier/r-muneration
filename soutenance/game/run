@@ -9,4 +9,5 @@ else
 fi
 
 docker build --pull $BUILD_OPTS -t container .
+#docker run container (groupadd $(id --group --name) ; docker run container useradd --gid $(id --group --name) $(id --user --name))
 docker run -it --user 1000:1000 -v $(pwd):/workspace/ container 
