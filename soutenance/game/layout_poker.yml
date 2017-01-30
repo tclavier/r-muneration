@@ -6,7 +6,7 @@ cut:
   y: 37.5
   width: 750
   height: 1050
-  fill_color: "lightgray"
+  fill_color: "black"
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
@@ -15,8 +15,8 @@ safe:
   width: 675
   height: 975
   radius: 50
-  stroke_width: 1
-  stroke_color: "ajiro_red"
+  stroke_width: 0
+  fill_color: "lightgray"
 
 inside:
   x: 100
@@ -47,7 +47,7 @@ description:
   justify: true
   valign: middle
   font: "Linux Libertine"
-  font_size: 20
+  font_size: 25
 
 copyright:
   x: 75
@@ -59,9 +59,11 @@ copyright:
   valign: bottom
   font: "Linux Biolinum O"
 
-art: 
-  x: 100
+art:
+  x: 262
   y: 200
-  width: :scale
+  width: 300
   height: 300
-
+  mask: 'ajiro_blue'
+  align: center
+  valign: middle
