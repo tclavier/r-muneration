@@ -41,15 +41,15 @@
   description: Nous sommes le 23 mai 2019. Les journées de la rémunération reprennent. Nous avons trouvé une nouvelle offre qui plait grâce à Léon. Les chiffres sont bons. Les actionnaires veulent compenser leurs pertes de l'année précédente.
 
 - title: Je témoigne de la reconnaissance
-  icon: icons/
-  description: Vous venez de passer 1 mois sur un projet difficile avec votre collègue (de gauche). Vous profitez d'un échange informel pour lui témoigner votre reconnaissance.  
+  icon: icons/hand.svg
+  description: Vous venez de passer un mois sur un projet difficile avec votre collègue (de gauche). Vous profitez d'une rétrospective hebdomadaire pour lui témoigner votre reconnaissance.  
   
-  - title: Prise de recul
-  icon: icons/
-  description: Vous êtes arrivés à un tournant de votre carrière. Di'ci 6 mois, vous aurez fait le tour. Vous souhaitez vous projeter et demandez à un collègue un entretien pour y voir plus clair.
+- title: Prise de recul
+  icon: icons/return-arrow.svg
+  description: Vous êtes arrivés à un tournant de votre carrière. Di'ci 6 mois, vous aurez fait le tour. Vous souhaitez vous projeter et demandez à Léo de participer à votre entretien trimestriel pour y voir plus clair.
   
-  - title: Evolution
-  icon: icons/
-  description: Vous avez de envies de changer de rôles. Le rôle que vous souhaitez tenir vous fait rêver. Vous décidez de vous entretenir avec Léon pour définir votre évolution.  
+- title: Evolution
+  icon: icons/slicing-arrow2.svg
+  description: Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.  
   
   
