@@ -25,7 +25,7 @@ end
 
 
 Cards = YAML.load_file('data/cards.yml')
-Squib::Deck.new(cards: Cards.size, layout: 'layout_poker.yml') do
+Squib::Deck.new(cards: Cards.size, layout: 'layout.yml') do
   background color: 'white'
 
   rect layout: 'cut'
