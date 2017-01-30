@@ -59,11 +59,13 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
 
   png file: Personas.map {|i| "images/#{i['icon'].downcase}" }, layout: 'photo'
 
-  rect layout: 'description_background'
-  text str: Personas.map { |e| e["description"]}, layout: 'description'
+  rect layout: 'persona_description_background'
+  text str: Personas.map { |e| e["description"]}, layout: 'persona_description'
 
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
+
+  svg file: 'icons/sands-of-time.svg', layout: 'etp_icon'
 
   #debug_grid
 
