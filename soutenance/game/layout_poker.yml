@@ -59,9 +59,10 @@ copyright:
   valign: bottom
   font: "Linux Biolinum O"
 
-art: 
-  x: 100
+art:
+  x: 262
   y: 200
-  width: :scale
+  width: 300
   height: 300
-
+  align: center
+  valign: middle
