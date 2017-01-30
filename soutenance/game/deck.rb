@@ -65,10 +65,14 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
 
-  svg file: 'icons/sands-of-time.svg', x: 100, y: 500, width: 100, height: :scale
-  svg file: 'icons/take-my-money.svg', x: 100, y: 650, width: 100, height: :scale
-  svg file: 'icons/van-damme-split.svg', x: 100, y: 750, width: 100, height: :scale
+  svg file: 'icons/sands-of-time.svg', layout: 'etp_icon'
+  text str: Personas.map { |e| e["ETP"]}, layout: 'etp_text'
 
+  svg file: 'icons/take-my-money.svg', layout: 'category_icon'
+  text str: Personas.map { |e| e["Catégorie"]}, layout: 'category_text'
+
+  svg file: 'icons/van-damme-split.svg', layout: 'variable_icon'
+  text str: Personas.map { |e| e["Variable"]}, layout: 'variable_text'
 
   #debug_grid
 

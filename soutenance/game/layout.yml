@@ -118,6 +118,22 @@ etp_icon:
   extends: 'icon'
   y: 650
 
-etp:
+etp_text:
   extends: 'item'
   y: 650
+
+category_icon:
+  extends: 'icon'
+  y: 690
+
+category_text:
+  extends: 'item'
+  y: 690
+
+variable_icon:
+  extends: 'icon'
+  y: 730
+
+variable_text:
+  extends: 'item'
+  y: 730
