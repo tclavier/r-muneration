@@ -34,7 +34,6 @@ Dir["data/*.yml"].each do |data|
 
     rect layout: 'cut'
     png file: 'ginkgo.png', layout: 'safe'
-    svg file: values.map {|i| i['icon'] }, layout: 'art'
 
     rect layout: 'title_background'
     text str: values.map { |e| e["title"]}, layout: 'title'
@@ -43,9 +42,6 @@ Dir["data/*.yml"].each do |data|
 
     rect layout: 'description_background'
     text str: values.map { |e| e["description"]}, layout: 'description'
-    #rect layout: 'title'
-    #rect layout: 'description'
-    #rect layout: 'art'
 
     text str: Copywright, layout: 'copyright'
     cutmark 40, 40, 785, 1085, 10
