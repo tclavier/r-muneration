@@ -1,10 +1,10 @@
 ---
 - title: Bienvenue ! 
-  icon:
+  icon: icons/medieval-gate.svg
   description: Bienvenue chez Dupont & Dupond, vous intégrez aujourd'hui notre société et Léo, Léa et Léon vont vous accompagner durant cette première journée.
 
 - title: Journée de rémunération
-  icon:
+  icon: icons/coins.svg
   description: Nous somme le 25 mai 2017, c'est la première journée de rémunération. Tout le monde est réunie dans nos locaux parisiens, Léonie nous présentent les chiffres, nous avons fait suffisement de bénéfices pour avoir une participation.
 
 - title: Au revoir mercenaire !
@@ -16,7 +16,7 @@
   description: Nous somme le 14 février 2018, Arpès avoir célébrer votre arrivée dans la société, nous allons vous accompagner pour choisir votre rémunération.
 
 - title: Journées de rémunération
-  icon:
+  icon: icons/coins.svg
   description: Nous somme le 24 mai 2018, Lola nous présentent les chiffres, ils sont catastrophiques ... 
 
 - title: Coup dure
@@ -36,6 +36,6 @@
   description: Réévalutation exceptionnel.
 
 - title: Rémunération du capital trop grosse
-  icon:
+  icon: icons/coins.svg
   description: Nous somme le 23 mai 2019, les journée de la rémunération reprennent, les chiffres sont bon, mais les actionnaires veulent compenser leurs pertes de l'année précédente.
 
