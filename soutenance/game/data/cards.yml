@@ -5,27 +5,27 @@
 
 - title: Journée de rémunération
   icon: icons/coins.svg
-  description: Nous sommes le 25 mai 2017, c'est la première journée de rémunération. Tout le monde est réuni dans nos locaux parisiens. Léonie notre responsable marketing nous présente les chiffres, nous avons fait suffisement de bénéfices pour avoir une participation.
+  description: Nous sommes le 25 mai 2017, c'est la "journée rémunération". Tout le monde est réuni dans nos locaux parisiens. Léonie notre responsable marketing nous présente les chiffres, nous avons fait suffisamment de bénéfices pour avoir une participation.
 
 - title: Au revoir mercenaire !
   icon: icons/crossed-swords.svg
-  description: L'entreprise ne souhaite pas assumer votre prétention salariale. Léo, Léa et Léon ont été tirrés au sort pour composer la commission de rupture.
+  description: L'entreprise n'a pas les moyens d'assumer vos prétentions salariales. Léo, Léa et Léon ont été tirés au sort pour composer la commission d'aide pour vous accompagner dans votre recherche d'une nouvelle société.
 
 - title: 1 an déjà
   icon: icons/candle-flame.svg
-  description: Nous somme le 14 février 2018, Arpès avoir célébrer votre arrivée dans la société, nous allons vous accompagner pour choisir votre rémunération.
+  description: Nous sommes le 14 février 2018. Vous venez de terminer votre période de postulat. Nous l'avons célébré en grandes pompes. Encore une fois, bienvenue ! Léa des ressources humaines va vous accompagner pour définir votre rémunération (fixe, variable).
 
-- title: Journées de rémunération
+- title: Journée de rémunération
   icon: icons/gold-bar.svg
-  description: Nous somme le 24 mai 2018, Lola nous présentent les chiffres, ils sont catastrophiques ...
+  description: Nous sommes le 24 mai 2018, c'est la "journée rémunération".  Léo nous présente les chiffres, ils sont malheureusement catastrophiques ... Nous l'avions vu arriver, le marché attend autre chose. En attendant .
 
-- title: Coup dure
+- title: Coup dur
   icon: icons/thor-hammer.svg
-  description: Problème familiale, vous vous retrouvez avec une nouvelle personne à charge il vous faudrait 500€ de plus par mois.
+  description: Problème familial, vous vous retrouvez avec une nouvelle personne à charge. Il vous faut 500€ de plus par mois pendant au moins les 5 prochaines années.
 
 - title: Je suis trop payé
   icon: icons/crown.svg
-  description: J'ai trop d'activités en dehors de l'entreprise, je ne souhaite plus m'investir autant il faudrait revoir ma rémunération.
+  description: J'ai pris en charge un grand nombre d'activités en dehors de l'entreprise. Je ne souhaite plus m'investir autant dans l'entreprise. J'aimerai revoir ma rémunération.
 
 - title: Je ne me sent pas à ma place
   icon: icons/stone-throne.svg
