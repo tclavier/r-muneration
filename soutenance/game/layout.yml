@@ -76,6 +76,20 @@ description:
   align: left
   font_size: 25
 
+persona_description_background:
+  extends: 'background'
+  y: 815
+  height: 200
+
+persona_description:
+  extends: 'text'
+  y: 840
+  height: 150
+  justify: true
+  valign: top
+  align: left
+  font_size: 25
+
 copyright:
   x: 75
   y: 1020
@@ -85,3 +99,25 @@ copyright:
   align: center
   valign: bottom
   font: "Linux Biolinum O"
+
+icon:
+  x: 125
+  width: 30
+  height: 30
+
+item:
+  x: 160
+  width: 540
+  height: 30
+  font_size: 30
+  align: left
+  valign: middle
+  font: "Linux Biolinum O"
+
+etp_icon:
+  extends: 'icon'
+  y: 650
+
+etp:
+  extends: 'item'
+  y: 650
