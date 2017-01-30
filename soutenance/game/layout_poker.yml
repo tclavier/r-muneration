@@ -20,9 +20,9 @@ safe:
 
 inside:
   x: 100
-  y: 325
+  y: 525
   width: 625
-  height: 685
+  height: 485
   radius: 40
   fill_color: "white"
   stroke_width: 0
@@ -31,19 +31,20 @@ title:
   x: 150
   y: 100
   width: 525
-  height: 200
+  height: 100
   align: center
   valign: middle
-  font: "Linux Libertine"
+  font: Linux Libertine
   font_size: 30
   color: "ajiro_red"
 
 description:
   x: 150
-  y: 350
+  y: 550
   width: 525
   height: 400
-  align: center
+  align: left
+  justify: true
   valign: middle
   font: "Linux Libertine"
   font_size: 20
@@ -57,3 +58,10 @@ copyright:
   align: center
   valign: bottom
   font: "Linux Biolinum O"
+
+art: 
+  x: 100
+  y: 200
+  width: :scale
+  height: 300
+
