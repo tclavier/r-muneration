@@ -4,17 +4,17 @@ require 'yaml'
 Copywright = "CC~BY-SA~3.0~FR Ajiro.fr, version: v1"
 
 def cutmark(top, left, right, bottom, size)
-  line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round
-  line x1: left, y1: top, x2: left, y2: top+size, stroke_width: 1, cap: :round
+  line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round, stroke_color: 'white'
+  line x1: left, y1: top, x2: left, y2: top+size, stroke_width: 1, cap: :round, stroke_color: 'white'
 
-  line x1: right, y1: top, x2: right, y2: top+size, stroke_width: 1, cap: :round
-  line x1: right, y1: top, x2: right-size, y2: top, stroke_width: 1, cap: :round
+  line x1: right, y1: top, x2: right, y2: top+size, stroke_width: 1, cap: :round, stroke_color: 'white'
+  line x1: right, y1: top, x2: right-size, y2: top, stroke_width: 1, cap: :round, stroke_color: 'white'
 
-  line x1: left, y1: bottom, x2: left+size, y2: bottom, stroke_width: 1, cap: :round
-  line x1: left, y1: bottom, x2: left, y2: bottom-size, stroke_width: 1, cap: :round
+  line x1: left, y1: bottom, x2: left+size, y2: bottom, stroke_width: 1, cap: :round, stroke_color: 'white'
+  line x1: left, y1: bottom, x2: left, y2: bottom-size, stroke_width: 1, cap: :round, stroke_color: 'white'
 
-  line x1: right, y1: bottom, x2: right-size, y2: bottom, stroke_width: 1, cap: :round
-  line x1: right, y1: bottom, x2: right, y2: bottom-size, stroke_width: 1, cap: :round
+  line x1: right, y1: bottom, x2: right-size, y2: bottom, stroke_width: 1, cap: :round, stroke_color: 'white'
+  line x1: right, y1: bottom, x2: right, y2: bottom-size, stroke_width: 1, cap: :round, stroke_color: 'white'
 end
 
 
