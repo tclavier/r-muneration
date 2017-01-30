@@ -65,7 +65,9 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
 
-  svg file: 'icons/sands-of-time.svg', layout: 'etp_icon'
+  svg file: 'icons/sands-of-time.svg', x: 100, y: 500, width: 100, height: :scale
+  svg file: 'icons/take-my-money.svg', x: 100, y: 650, width: 100, height: :scale
+
 
   #debug_grid
 
