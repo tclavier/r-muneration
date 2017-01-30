@@ -33,8 +33,10 @@ Dir["data/*.yml"].each do |data|
     background color: 'white'
 
     rect layout: 'cut'
-    rect layout: 'safe'
+    #rect layout: 'safe'
+    svg file: 'marble.svg', layout: 'safe'
 
+    #rect layout: 'title_background'
     text str: values.map { |e| e["title"]}, layout: 'title'
 
     svg file: values.map {|i| i['icon'] }, layout: 'art'

@@ -17,6 +17,9 @@ safe:
   radius: 50
   stroke_width: 0
   fill_color: "lightgray"
+  crop_width: 675
+  crop_height: 975
+#  crop_corner_radius: 40
 
 text:
   x: 125
@@ -25,27 +28,34 @@ text:
   valign: middle
   font: Linux Libertine
 
+background:
+  x: 100
+  width: 625
+  radius: 40
+  fill_color: "#ffffffa0"
+  stroke_width: 0
+
+title_background:
+  extends: 'background'
+  fill_color: '#CD334910'
+  y: 90
+  height: 160
 
 title:
   extends: 'text'
   y: 100
   height: 140
-  font_size: 36
+  font_size: 40
   color: "ajiro_red"
 
-
 description_background:
-  x: 100
-  y: 575
-  width: 625
+  extends: 'background'
+  y: 615
   height: 400
-  radius: 40
-  fill_color: "white"
-  stroke_width: 0
 
 description:
   extends: 'text'
-  y: 600
+  y: 640
   height: 350
   justify: true
   valign: top
