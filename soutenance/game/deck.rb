@@ -52,7 +52,7 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   background color: 'white'
 
   rect layout: 'cut'
-  png file: 'ginkgo.png', layout: 'safe'
+  png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
   text str: Personas.map { |e| e["title"]}, layout: 'title'
