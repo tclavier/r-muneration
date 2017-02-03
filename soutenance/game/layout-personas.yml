@@ -1,6 +1,5 @@
 # 825 x 1125  2.5in x 3.5in  6,35cm x 8,89cm
 
-# The "cut line", without rounded corners
 cut:
   x: 37.5
   y: 37.5
@@ -8,13 +7,13 @@ cut:
   height: 1050
   fill_color: "black"
 
-# The "safe zone" as defined by TheGameCrafter poker cards
 safe:
   x: 75
   y: 75
   width: 675
   height: 975
   crop_corner_radius: 10
+
 
 text:
   x: 125
@@ -31,6 +30,7 @@ background:
   stroke_width: 1
   stroke_color: ajiro_blue
 
+
 title_background:
   extends: 'background'
   y: 110
@@ -38,36 +38,19 @@ title_background:
 
 title:
   extends: 'text'
-  y: 110
-  height: 140
-  font_size: 40
-  color: "ajiro_blue"
-  font: Linux Libertine Bold
-
-persona_title:
-  extends: 'title'
   y: 130
   height: 40
   font_size: 40
   color: "ajiro_blue"
   font: Linux Libertine Bold
 
-persona_role:
+role:
   extends: 'text'
   y: 190
   height: 30
   font_size: 25
   color: "ajiro_blue"
   font: Linux Libertine Italic
-
-art:
-  x: 272
-  y: 270
-  width: 280
-  height: 280
-  mask: 'ajiro_blue'
-  align: center
-  valign: middle
 
 photo:
   x: 242
@@ -80,24 +63,10 @@ photo:
 
 description_background:
   extends: 'background'
-  y: 615
-  height: 400
-
-description:
-  extends: 'text'
-  y: 640
-  height: 350
-  justify: true
-  valign: top
-  align: left
-  font_size: 25
-
-persona_description_background:
-  extends: 'background'
   y: 815
   height: 200
 
-persona_description:
+description_text:
   extends: 'text'
   y: 840
   height: 150
@@ -105,16 +74,6 @@ persona_description:
   valign: top
   align: left
   font_size: 25
-
-copyright:
-  x: 75
-  y: 1020
-  width: 675
-  height: 25
-  font_size: 14
-  align: center
-  valign: bottom
-  font: Linux Libertine
 
 icon:
   width: 30
@@ -191,3 +150,13 @@ anciennete_icon:
 anciennete_text:
   extends: 'item_right'
   y: 740
+
+copyright:
+  x: 75
+  y: 1020
+  width: 675
+  height: 25
+  font_size: 14
+  align: center
+  valign: bottom
+  font: Linux Libertine

@@ -32,17 +32,15 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
-  text str: Cards.map { |e| e["title"]}, layout: 'title'
+  text str: Cards.map { |e| e["title"]}, layout: 'title_text'
 
   svg file: Cards.map {|i| i['icon'] }, layout: 'art'
 
   rect layout: 'description_background'
-  text str: Cards.map { |e| e["description"]}, layout: 'description'
+  text str: Cards.map { |e| e["description"]}, layout: 'description_text'
 
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
-
-  #debug_grid
 
   save format: :pdf, file: "cards.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end
@@ -55,13 +53,13 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
   png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
-  text str: Personas.map { |e| e["title"]}, layout: 'persona_title'
-  text str: Personas.map { |e| e["role"]}, layout: 'persona_role'
+  text str: Personas.map { |e| e["title"]}, layout: 'title'
+  text str: Personas.map { |e| e["role"]}, layout: 'role'
 
   png file: Personas.map {|i| "images/#{i['icon'].downcase}" }, layout: 'photo'
 
-  rect layout: 'persona_description_background'
-  text str: Personas.map { |e| e["description"]}, layout: 'persona_description'
+  rect layout: 'description_background'
+  text str: Personas.map { |e| e["description"]}, layout: 'description_text'
 
   text str: Copywright, layout: 'copyright'
   cutmark 40, 40, 785, 1085, 10
@@ -82,8 +80,6 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
 
   svg file: 'icons/medal.svg', layout: 'anciennete_icon'
   text str: Personas.map { |e| e["anciennete"]}, layout: 'anciennete_text'
-
-  #debug_grid
 
   save format: :pdf, file: "personas.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end
