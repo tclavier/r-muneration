@@ -17,6 +17,15 @@ def cutmark(top, left, right, bottom, size)
   line x1: right, y1: bottom, x2: right, y2: bottom-size, stroke_width: 1, cap: :round, stroke_color: 'white'
 end
 
+def set_background()
+  background color: 'black'
+  png file: 'images/ginkgo.png', layout: 'safe'
+end
+
+def save_home_made(file)
+  cutmark 40, 40, 785, 1085, 10
+  save format: :pdf, file: file, width: "29.7cm", height: "21cm", trim: 40, gap: 0
+end
 
 def debug_grid()
   grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5
@@ -26,9 +35,7 @@ end
 
 Cards = YAML.load_file('data/cards.yml')
 Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
-  background color: 'black'
-
-  png file: 'images/ginkgo.png', layout: 'safe'
+  set_background
 
   rect layout: 'title_background'
   text str: Cards.map { |e| e["title"]}, layout: 'title_text'
@@ -39,9 +46,8 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   text str: Cards.map { |e| e["description"]}, layout: 'description_text'
 
   text str: Copywright, layout: 'copyright'
-  cutmark 40, 40, 785, 1085, 10
 
-  save format: :pdf, file: "cards.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
+  save_home_made "cards.pdf"
 end
 
 
@@ -55,9 +61,7 @@ Items = {
 
 Personas = YAML.load_file('data/personas.yml')
 Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
-  background color: 'black'
-
-  png file: 'images/ginkgo.png', layout: 'safe'
+  set_background
 
   rect layout: 'title_background'
   text str: Personas.map { |e| e["title"]}, layout: 'title'
@@ -75,7 +79,6 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
   end
 
   text str: Copywright, layout: 'copyright'
-  cutmark 40, 40, 785, 1085, 10
 
-  save format: :pdf, file: "personas.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
+  save_home_made "personas.pdf"
 end
