@@ -45,6 +45,15 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   save format: :pdf, file: "cards.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end
 
+
+Items = {
+  etp: 'icons/sands-of-time.svg',
+  category: 'icons/take-my-money.svg',
+  variable: 'icons/van-damme-split.svg',
+  xp: 'icons/power-lightning.svg',
+  anciennete: 'icons/medal.svg',
+}
+
 Personas = YAML.load_file('data/personas.yml')
 Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
   background color: 'white'
@@ -66,20 +75,10 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
 
   rect layout: 'item_background'
 
-  svg file: 'icons/sands-of-time.svg', layout: 'etp_icon'
-  text str: Personas.map { |e| e["ETP"]}, layout: 'etp_text'
-
-  svg file: 'icons/take-my-money.svg', layout: 'category_icon'
-  text str: Personas.map { |e| e["category"]}, layout: 'category_text'
-
-  svg file: 'icons/van-damme-split.svg', layout: 'variable_icon'
-  text str: Personas.map { |e| e["variable"]}, layout: 'variable_text'
-
-  svg file: 'icons/power-lightning.svg', layout: 'xp_icon'
-  text str: Personas.map { |e| e["XP"]}, layout: 'xp_text'
-
-  svg file: 'icons/medal.svg', layout: 'anciennete_icon'
-  text str: Personas.map { |e| e["anciennete"]}, layout: 'anciennete_text'
+  Items.each do |key,icon|
+    svg file: icon, layout: "#{key}_icon"
+    text str: Personas.map { |e| e["#{key}"]}, layout: "#{key}_text"
+  end
 
   save format: :pdf, file: "personas.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end

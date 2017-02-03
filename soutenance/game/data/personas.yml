@@ -2,89 +2,89 @@
 - title: Léo
   role: Consultant sénior
   icon: olivier.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie C
   variable: 40% de variable
-  XP: 5 ans d'expérience
+  xp: 5 ans d'expérience
   anciennete: 3 ans d'ancienneté
   description: célibataire
 
 - title: Léa
   role: Ressources humaines
   icon: mija.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie C
   variable: 20% de variable
-  XP: 5 ans d'expérience
+  xp: 5 ans d'expérience
   anciennete: 4 ans d'ancienneté
   description: mariée, jeune maman de Lucie
 
 - title: Léon
   role: Commercial
   icon: thomas.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie I
   variable: 0% de variable
-  XP: 10 ans d'expérience
+  xp: 10 ans d'expérience
   anciennete: 6 mois d'ancienneté
   description: célibataire
 
 - title: Léonie
   role: Responsable marketing
   icon: leonie.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie I
   variable: 50% de variable
-  XP: 15 ans d'expérience
+  xp: 15 ans d'expérience
   anciennete: 9 ans d'ancienneté
   description: marié, 3 enfants
 
 - title: Larry
   role: Consultant junior
   icon: larry.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie B
   variable: 0% de variable
-  XP: 0, il sort de l'école
+  xp: 0, il sort de l'école
   anciennete: 8 mois d'ancienneté
   description: célibataire
 
 - title: Lola
   role: Consultante sénior
   icon: lola.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie F
   variable: 10% de variable
-  XP: 10 ans d'expérience
+  xp: 10 ans d'expérience
   anciennete: 2 ans d'ancienneté
   description: parent isolé avec 2 enfants
 
 - title: Lara
   role: Chef de mission
   icon: lara.png
-  ETP: 80%
+  etp: 80%
   category: Catégorie E
   variable: 0% de variable
-  XP: 10 ans d'expérience
+  xp: 10 ans d'expérience
   anciennete: 2 ans d'ancienneté
   description: célibataire
 
 - title: Lyam
   role: Responsable de la communication externe
   icon: lyam.png
-  ETP: Temps plein
+  etp: Temps plein
   category: Catégorie E
   variable: 20% de variable
-  XP: 20 ans d'expérience
+  xp: 20 ans d'expérience
   anciennete: 3 ans d'ancienneté
   description: re-marié, 5 enfants
 
 - title: Léopold
   role: Consultant sénior
   icon: leopold.png
-  ETP: 80%
+  etp: 80%
   category: Catégorie G
   variable: 60% de variable
-  XP: 5 ans d'expérience
+  xp: 5 ans d'expérience
   anciennete: 35 ans d'ancienneté
   description: marié, les enfants ont quitté le nid depuis bien longtemps
