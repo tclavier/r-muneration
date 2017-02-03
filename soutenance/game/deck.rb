@@ -1,7 +1,8 @@
 require 'squib'
 require 'yaml'
 
-Copywright = "CC~BY-SA~3.0~FR Ajiro.fr, version: v1"
+Version=1
+Copywright = "CC~BY-SA~3.0~FR Ajiro.fr, version: v#{Version}"
 
 def cutmark(top, left, right, bottom, size)
   line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round, stroke_color: 'white'
