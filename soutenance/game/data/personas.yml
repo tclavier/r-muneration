@@ -3,88 +3,88 @@
   role: Consultant sénior
   icon: olivier.png
   ETP: Temps plein
-  Catégorie: Catégorie C
-  Variable: 40% de variable
+  category: Catégorie C
+  variable: 40% de variable
   XP: 5 ans d'expérience
-  ancienneté: 3 ans d'ancienneté
+  anciennete: 3 ans d'ancienneté
   description: célibataire
 
 - title: Léa
   role: Ressources humaines
   icon: mija.png
   ETP: Temps plein
-  Catégorie: Catégorie C
-  Variable: 20% de variable
+  category: Catégorie C
+  variable: 20% de variable
   XP: 5 ans d'expérience
-  ancienneté: 4 ans d'ancienneté
+  anciennete: 4 ans d'ancienneté
   description: mariée, jeune maman de Lucie
 
 - title: Léon
   role: Commercial
   icon: thomas.png
   ETP: Temps plein
-  Catégorie: Catégorie I
-  Variable: 0% de variable
+  category: Catégorie I
+  variable: 0% de variable
   XP: 10 ans d'expérience
-  ancienneté: 6 mois d'ancienneté
+  anciennete: 6 mois d'ancienneté
   description: célibataire
 
 - title: Léonie
   role: Responsable marketing
   icon: leonie.png
   ETP: Temps plein
-  Catégorie: Catégorie I
-  Variable: 50% de variable
+  category: Catégorie I
+  variable: 50% de variable
   XP: 15 ans d'expérience
-  ancienneté: 9 ans d'ancienneté
+  anciennete: 9 ans d'ancienneté
   description: marié, 3 enfants
 
 - title: Larry
   role: Consultant junior
   icon: larry.png
   ETP: Temps plein
-  Catégorie: Catégorie B
-  Variable: 0% de variable
+  category: Catégorie B
+  variable: 0% de variable
   XP: 0, il sort de l'école
-  ancienneté: 8 mois d'ancienneté
+  anciennete: 8 mois d'ancienneté
   description: célibataire
 
 - title: Lola
   role: Consultante sénior
   icon: lola.png
   ETP: Temps plein
-  Catégorie: Catégorie F
-  Variable: 10% de variable
+  category: Catégorie F
+  variable: 10% de variable
   XP: 10 ans d'expérience
-  ancienneté: 2 ans d'ancienneté
+  anciennete: 2 ans d'ancienneté
   description: parent isolé avec 2 enfants
 
 - title: Lara
   role: Chef de mission
   icon: lara.png
   ETP: 80%
-  Catégorie: Catégorie E
-  Variable: 0% de variable
+  category: Catégorie E
+  variable: 0% de variable
   XP: 10 ans d'expérience
-  ancienneté: 2 ans d'ancienneté
+  anciennete: 2 ans d'ancienneté
   description: célibataire
 
 - title: Lyam
   role: Responsable de la communication externe
   icon: lyam.png
   ETP: Temps plein
-  Catégorie: Catégorie E
-  Variable: 20% de variable
+  category: Catégorie E
+  variable: 20% de variable
   XP: 20 ans d'expérience
-  ancienneté: 3 ans d'ancienneté
+  anciennete: 3 ans d'ancienneté
   description: re-marié, 5 enfants
 
 - title: Léopold
   role: Consultant sénior
   icon: leopold.png
   ETP: 80%
-  Catégorie: Catégorie G
-  Variable: 60% de variable
+  category: Catégorie G
+  variable: 60% de variable
   XP: 5 ans d'expérience
-  ancienneté: 35 ans d'ancienneté
+  anciennete: 35 ans d'ancienneté
   description: marié, les enfants ont quitté le nid depuis bien longtemps

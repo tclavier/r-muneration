@@ -72,16 +72,16 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
   text str: Personas.map { |e| e["ETP"]}, layout: 'etp_text'
 
   svg file: 'icons/take-my-money.svg', layout: 'category_icon'
-  text str: Personas.map { |e| e["Catégorie"]}, layout: 'category_text'
+  text str: Personas.map { |e| e["category"]}, layout: 'category_text'
 
   svg file: 'icons/van-damme-split.svg', layout: 'variable_icon'
-  text str: Personas.map { |e| e["Variable"]}, layout: 'variable_text'
+  text str: Personas.map { |e| e["variable"]}, layout: 'variable_text'
 
   svg file: 'icons/power-lightning.svg', layout: 'xp_icon'
   text str: Personas.map { |e| e["XP"]}, layout: 'xp_text'
 
   svg file: 'icons/medal.svg', layout: 'anciennete_icon'
-  text str: Personas.map { |e| e["ancienneté"]}, layout: 'anciennete_text'
+  text str: Personas.map { |e| e["anciennete"]}, layout: 'anciennete_text'
 
   #debug_grid
 
