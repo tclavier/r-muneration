@@ -25,7 +25,7 @@ end
 
 
 Cards = YAML.load_file('data/cards.yml')
-Squib::Deck.new(cards: Cards.size, layout: 'layout.yml') do
+Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   background color: 'white'
 
   rect layout: 'cut'
@@ -48,7 +48,7 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout.yml') do
 end
 
 Personas = YAML.load_file('data/personas.yml')
-Squib::Deck.new(cards: Personas.size, layout: 'layout.yml') do
+Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
   background color: 'white'
 
   rect layout: 'cut'
