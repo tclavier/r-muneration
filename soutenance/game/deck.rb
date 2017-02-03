@@ -26,9 +26,8 @@ end
 
 Cards = YAML.load_file('data/cards.yml')
 Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
-  background color: 'white'
+  background color: 'black'
 
-  rect layout: 'cut'
   png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
@@ -56,9 +55,8 @@ Items = {
 
 Personas = YAML.load_file('data/personas.yml')
 Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
-  background color: 'white'
+  background color: 'black'
 
-  rect layout: 'cut'
   png file: 'images/ginkgo.png', layout: 'safe'
 
   rect layout: 'title_background'
@@ -70,15 +68,14 @@ Squib::Deck.new(cards: Personas.size, layout: 'layout-personas.yml') do
   rect layout: 'description_background'
   text str: Personas.map { |e| e["description"]}, layout: 'description_text'
 
-  text str: Copywright, layout: 'copyright'
-  cutmark 40, 40, 785, 1085, 10
-
   rect layout: 'item_background'
-
   Items.each do |key,icon|
     svg file: icon, layout: "#{key}_icon"
     text str: Personas.map { |e| e["#{key}"]}, layout: "#{key}_text"
   end
+
+  text str: Copywright, layout: 'copyright'
+  cutmark 40, 40, 785, 1085, 10
 
   save format: :pdf, file: "personas.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end

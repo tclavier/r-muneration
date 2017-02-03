@@ -5,7 +5,6 @@ cut:
   y: 37.5
   width: 750
   height: 1050
-  fill_color: "black"
 
 safe:
   x: 75
