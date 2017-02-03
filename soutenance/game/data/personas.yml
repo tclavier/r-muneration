@@ -11,7 +11,7 @@
 
 - title: Léa
   role: Ressources humaines
-  icon: mija.rabemananjara.png
+  icon: mija.png
   ETP: Temps plein
   Catégorie: Catégorie C
   Variable: 20% de variable
@@ -21,7 +21,7 @@
 
 - title: Léon
   role: Commercial
-  icon: thomas.clavier.png
+  icon: thomas.png
   ETP: Temps plein
   Catégorie: Catégorie I
   Variable: 0% de variable
@@ -31,7 +31,7 @@
 
 - title: Léonie
   role: Responsable marketing
-  icon: Leonie.png
+  icon: leonie.png
   ETP: Temps plein
   Catégorie: Catégorie I
   Variable: 50% de variable
@@ -41,7 +41,7 @@
 
 - title: Larry
   role: Consultant junior
-  icon: Larry.png
+  icon: larry.png
   ETP: Temps plein
   Catégorie: Catégorie B
   Variable: 0% de variable
@@ -51,7 +51,7 @@
 
 - title: Lola
   role: Consultante sénior
-  icon: Lola.png
+  icon: lola.png
   ETP: Temps plein
   Catégorie: Catégorie F
   Variable: 10% de variable
@@ -61,7 +61,7 @@
 
 - title: Lara
   role: Chef de mission
-  icon: mija.png
+  icon: lara.png
   ETP: 80%
   Catégorie: Catégorie E
   Variable: 0% de variable
@@ -81,7 +81,7 @@
 
 - title: Léopold
   role: Consultant sénior
-  icon: patrick.png
+  icon: leopold.png
   ETP: 80%
   Catégorie: Catégorie G
   Variable: 60% de variable

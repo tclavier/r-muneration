@@ -76,7 +76,7 @@ photo:
   height: 340
   align: center
   valign: middle
-
+  crop_corner_radius: 10
 
 description_background:
   extends: 'background'
