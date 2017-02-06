@@ -88,3 +88,13 @@
   xp: 35 ans d'expérience
   anciennete: 5 ans d'ancienneté
   description: Marié, les enfants ont quitté le nid depuis bien longtemps
+
+- title: Laurent
+  role: Consultant sénior
+  icon: laurent.png
+  etp: Temps plein
+  category: Catégorie I
+  variable: 0% de variable
+  xp: 16 ans d'expérience
+  anciennete: 0 ans d'ancienneté
+  description: Marié, 1 enfant
