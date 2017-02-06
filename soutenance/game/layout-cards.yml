@@ -1,0 +1,77 @@
+# 825 x 1125  2.5in x 3.5in  6,35cm x 8,89cm
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  crop_corner_radius: 10
+
+text:
+  x: 125
+  width: 575
+  align: center
+  valign: middle
+  font: Linux Libertine
+
+background:
+  x: 100
+  width: 625
+  radius: 10
+  fill_color: "#ffffff80"
+  stroke_width: 1
+  stroke_color: ajiro_blue
+
+title_background:
+  extends: 'background'
+  y: 110
+  height: 140
+
+title_text:
+  extends: 'text'
+  y: 110
+  height: 140
+  font_size: 40
+  color: "ajiro_blue"
+  font: Linux Libertine Bold
+
+art:
+  x: 272
+  y: 270
+  width: 280
+  height: 280
+  mask: 'ajiro_blue'
+  align: center
+  valign: middle
+
+description_background:
+  extends: 'background'
+  y: 615
+  height: 400
+
+description_text:
+  extends: 'text'
+  y: 640
+  height: 350
+  justify: true
+  valign: top
+  align: left
+  font_size: 25
+
+copyright:
+  x: 75
+  y: 1020
+  width: 675
+  height: 25
+  font_size: 14
+  align: center
+  valign: bottom
+  font: Linux Libertine

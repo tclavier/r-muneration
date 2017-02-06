@@ -2,89 +2,109 @@
 - title: Léo
   role: Consultant sénior
   icon: olivier.png
-  ETP: Temps plein
-  Catégorie: Catégorie C
-  Variable: 40% de variable
-  XP: 5 ans d'expérience
-  ancienneté: 3 ans d'ancienneté
-  description: célibataire
+  etp: Temps plein
+  category: Catégorie C
+  variable: 40% de variable
+  xp: 5 ans d'expérience
+  anciennete: 3 ans d'ancienneté
+  description: Célibataire
 
 - title: Léa
   role: Ressources humaines
-  icon: mija.rabemananjara.png
-  ETP: Temps plein
-  Catégorie: Catégorie C
-  Variable: 20% de variable
-  XP: 5 ans d'expérience
-  ancienneté: 4 ans d'ancienneté
-  description: mariée, jeune maman de Lucie
+  icon: mija.png
+  etp: Temps plein
+  category: Catégorie C
+  variable: 20% de variable
+  xp: 5 ans d'expérience
+  anciennete: 4 ans d'ancienneté
+  description: Mariée, jeune maman de Lucie
 
 - title: Léon
   role: Commercial
-  icon : thomas.clavier.png
-  ETP : Temps plein
-  Catégorie : Catégorie I
-  Variable : 0% de variable
-  XP : 10 ans d'expérience
-  ancienneté : 6 mois d'ancienneté
-  description : marié, 3 enfants
+  icon: thomas.png
+  etp: Temps plein
+  category: Catégorie I
+  variable: 0% de variable
+  xp: 10 ans d'expérience
+  anciennete: 6 mois d'ancienneté
+  description: Célibataire
 
-- title : Léonie
+- title: Léonie
   role: Responsable marketing
-  icon: Leonie.png
-  ETP: Temps plein
-  Catégorie: Catégorie I
-  Variable: 50% de variable
-  XP: 15 ans d'expérience
-  ancienneté: 9 ans d'ancienneté
-  description: marié, 3 enfants
+  icon: leonie.png
+  etp: Temps plein
+  category: Catégorie I
+  variable: 50% de variable
+  xp: 15 ans d'expérience
+  anciennete: 9 ans d'ancienneté
+  description: Marié, 3 enfants
 
 - title: Larry
   role: Consultant junior
-  icon: Larry.png
-  ETP: Temps plein
-  Catégorie: Catégorie B
-  Variable: 0% de variable
-  XP: 0, il sort de l'école
-  ancienneté: 8 mois d'ancienneté
-  description: célibataire
+  icon: larry.png
+  etp: Temps plein
+  category: Catégorie B
+  variable: 0% de variable
+  xp: 0, il sort de l'école
+  anciennete: 8 mois d'ancienneté
+  description: Célibataire
 
 - title: Lola
   role: Consultante sénior
-  icon: Lola.png
-  ETP: Temps plein
-  Catégorie: Catégorie F
-  Variable: 10% de variable
-  XP: 10 ans d'expérience
-  ancienneté: 2 ans d'ancienneté
-  description: parent isolé avec 2 enfants
+  icon: lola.png
+  etp: Temps plein
+  category: Catégorie F
+  variable: 10% de variable
+  xp: 10 ans d'expérience
+  anciennete: 2 ans d'ancienneté
+  description: Parent isolé avec 2 enfants
 
 - title: Lara
   role: Chef de mission
-  icon: mija.png
-  ETP: 80%
-  Catégorie: Catégorie E
-  Variable: 0% de variable
-  XP: 10 ans d'expérience
-  ancienneté: 2 ans d'ancienneté
-  description: célibataire
+  icon: lara.png
+  etp: 80%
+  category: Catégorie E
+  variable: 0% de variable
+  xp: 10 ans d'expérience
+  anciennete: 2 ans d'ancienneté
+  description: Célibataire
 
 - title: Lyam
   role: Responsable de la communication externe
   icon: lyam.png
-  ETP: Temps plein
-  Catégorie: Catégorie E
-  Variable: 20% de variable
-  XP: 20 ans d'expérience
-  ancienneté: 3 ans d'ancienneté
-  description: re-marié, 5 enfants
+  etp: Temps plein
+  category: Catégorie E
+  variable: 20% de variable
+  xp: 20 ans d'expérience
+  anciennete: 3 ans d'ancienneté
+  description: Re-marié, 5 enfants
 
 - title: Léopold
   role: Consultant sénior
-  icon: patrick.png
-  ETP: 80%
-  Catégorie: Catégorie G
-  Variable: 60% de variable
-  XP: 5 ans d'expérience
-  ancienneté: 35 ans d'ancienneté
-  description: marié, les enfants ont quitté le nid depuis bien longtemps
+  icon: leopold.png
+  etp: 80%
+  category: Catégorie G
+  variable: 60% de variable
+  xp: 35 ans d'expérience
+  anciennete: 5 ans d'ancienneté
+  description: Marié, les enfants ont quitté le nid depuis bien longtemps
+
+- title: Laurent
+  role: Consultant sénior
+  icon: laurent.png
+  etp: Temps plein
+  category: Catégorie I
+  variable: 0% de variable
+  xp: 16 ans d'expérience
+  anciennete: 0 ans d'ancienneté
+  description: Marié, 1 enfant
+
+- title: Lucien
+  role: Actionnaire majoritaire
+  icon: lucien.png
+  etp: n/a
+  category: n/a
+  variable: n/a
+  xp: n/a
+  anciennete: n/a
+  description: Retraité
