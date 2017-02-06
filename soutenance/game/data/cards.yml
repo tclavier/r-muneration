@@ -5,7 +5,7 @@
 
 - title: Journée de rémunération
   icon: icons/coins.svg
-  description: Nous sommes le 25 mai 2017, c'est la "journée rémunération". Tout le monde est réuni dans nos locaux parisiens. Léonie notre responsable marketing nous présente les chiffres, nous avons fait suffisamment de bénéfices pour avoir une participation.
+  description: Nous sommes le 25 mai 2017, c'est la "journée rémunération". Tout le monde est réuni dans nos locaux parisiens. Léa des ressources humaines nous présente les chiffres, nous avons fait suffisamment de bénéfices pour avoir une participation.
 
 - title: Au revoir mercenaire !
   icon: icons/crossed-swords.svg
@@ -17,7 +17,7 @@
 
 - title: Journée de rémunération
   icon: icons/gold-bar.svg
-  description: Nous sommes le 24 mai 2018, c'est la "journée rémunération".  Léo nous présente les chiffres, ils sont malheureusement catastrophiques ... Nous l'avions vu arriver, le marché attend autre chose. En attendant .
+  description: Nous sommes le 24 mai 2018, c'est la "journée rémunération". Léo nous présente les chiffres, ils sont malheureusement catastrophiques... Nous l'avions vu arriver, le marché attend autre chose. En attendant il faut revoir notre rémunération.
 
 - title: Coup dur
   icon: icons/thor-hammer.svg
@@ -34,7 +34,7 @@
 
 - title: Arrivée d'un bébé
   icon: icons/baby-face.svg
-  description: Je suis heureux(se). J'accueille un nouveau venu dans ma famille. Mon fils va naître dans 6 mois. Je souhaite réévaluer mon salaire. 
+  description: Je suis heureux(se). J'accueille un nouveau venu dans ma famille. Mon fils va naître dans 6 mois. Je souhaite réévaluer mon salaire.
 
 - title: Rémunération incomprise du capital
   icon: icons/robber.svg
@@ -42,14 +42,12 @@
 
 - title: Je témoigne de la reconnaissance
   icon: icons/hand.svg
-  description: Vous venez de passer un mois sur un projet difficile avec votre collègue (de gauche). Vous profitez d'une rétrospective hebdomadaire pour lui témoigner votre reconnaissance.  
-  
+  description: Vous venez de passer un mois sur un projet difficile avec votre collègue (de gauche). Vous profitez d'une rétrospective hebdomadaire pour lui témoigner votre reconnaissance.
+
 - title: Prise de recul
   icon: icons/return-arrow.svg
   description: Vous êtes arrivés à un tournant de votre carrière. Di'ci 6 mois, vous aurez fait le tour. Vous souhaitez vous projeter et demandez à Léo de participer à votre entretien trimestriel pour y voir plus clair.
-  
+
 - title: Evolution
   icon: icons/slicing-arrow2.svg
-  description: Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.  
-  
-  
+  description: Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.
