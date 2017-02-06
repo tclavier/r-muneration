@@ -7,7 +7,7 @@
   variable: 40% de variable
   xp: 5 ans d'expérience
   anciennete: 3 ans d'ancienneté
-  description: célibataire
+  description: Célibataire
 
 - title: Léa
   role: Ressources humaines
@@ -17,7 +17,7 @@
   variable: 20% de variable
   xp: 5 ans d'expérience
   anciennete: 4 ans d'ancienneté
-  description: mariée, jeune maman de Lucie
+  description: Mariée, jeune maman de Lucie
 
 - title: Léon
   role: Commercial
@@ -27,7 +27,7 @@
   variable: 0% de variable
   xp: 10 ans d'expérience
   anciennete: 6 mois d'ancienneté
-  description: célibataire
+  description: Célibataire
 
 - title: Léonie
   role: Responsable marketing
@@ -37,7 +37,7 @@
   variable: 50% de variable
   xp: 15 ans d'expérience
   anciennete: 9 ans d'ancienneté
-  description: marié, 3 enfants
+  description: Marié, 3 enfants
 
 - title: Larry
   role: Consultant junior
@@ -47,7 +47,7 @@
   variable: 0% de variable
   xp: 0, il sort de l'école
   anciennete: 8 mois d'ancienneté
-  description: célibataire
+  description: Célibataire
 
 - title: Lola
   role: Consultante sénior
@@ -57,7 +57,7 @@
   variable: 10% de variable
   xp: 10 ans d'expérience
   anciennete: 2 ans d'ancienneté
-  description: parent isolé avec 2 enfants
+  description: Parent isolé avec 2 enfants
 
 - title: Lara
   role: Chef de mission
@@ -67,7 +67,7 @@
   variable: 0% de variable
   xp: 10 ans d'expérience
   anciennete: 2 ans d'ancienneté
-  description: célibataire
+  description: Célibataire
 
 - title: Lyam
   role: Responsable de la communication externe
@@ -77,7 +77,7 @@
   variable: 20% de variable
   xp: 20 ans d'expérience
   anciennete: 3 ans d'ancienneté
-  description: re-marié, 5 enfants
+  description: Re-marié, 5 enfants
 
 - title: Léopold
   role: Consultant sénior
@@ -87,4 +87,4 @@
   variable: 60% de variable
   xp: 35 ans d'expérience
   anciennete: 5 ans d'ancienneté
-  description: marié, les enfants ont quitté le nid depuis bien longtemps
+  description: Marié, les enfants ont quitté le nid depuis bien longtemps
