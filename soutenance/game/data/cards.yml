@@ -13,11 +13,11 @@
 
 - title: 1 an déjà
   icon: icons/candle-flame.svg
-  description: Nous sommes le 14 février 2018. Vous venez de terminer votre période de postulat. Nous l'avons célébré en grandes pompes. Encore une fois, bienvenue ! Léa des ressources humaines va vous accompagner pour définir votre rémunération (fixe, variable).
+  description: Nous sommes le 14 février 2018. Vous venez de terminer votre période de postulat. Nous l'avons célébré en grande pompe. Encore une fois, bienvenue ! Léa des ressources humaines va vous accompagner pour définir votre rémunération (fixe, variable).
 
 - title: Journée de rémunération
   icon: icons/gold-bar.svg
-  description: Nous sommes le 24 mai 2018, c'est la "journée rémunération". Léo nous présente les chiffres, ils sont malheureusement catastrophiques... Nous l'avions vu arriver, le marché attend autre chose. En attendant il faut revoir notre rémunération.
+  description: Nous sommes le 24 mai 2018, c'est la "journée rémunération". Léo nous présente les chiffres, ils sont malheureusement catastrophiques... Nous l'avions vu arriver, le marché attend autre chose. En attendant, il faut revoir notre rémunération.
 
 - title: Coup dur
   icon: icons/thor-hammer.svg
@@ -25,7 +25,7 @@
 
 - title: Je suis trop payé
   icon: icons/crown.svg
-  description: J'ai pris en charge un grand nombre d'activités en dehors de l'entreprise. Je ne souhaite plus m'investir autant dans l'entreprise. J'aimerai revoir ma rémunération.
+  description: J'ai pris en charge un grand nombre d'activités en dehors de l'entreprise. Je ne souhaite plus m'investir autant dans l'entreprise. J'aimerais revoir ma rémunération.
 
 - title: Je ne me sens pas à ma place
   icon: icons/stone-throne.svg
@@ -38,7 +38,7 @@
 
 - title: Rémunération incomprise du capital
   icon: icons/robber.svg
-  description: Nous sommes le 23 mai 2019. Les journées de la rémunération reprennent. Nous avons trouvé une nouvelle offre qui plait grâce à Léon. Il nous présente ces bons chiffres. Les actionnaires veulent compenser leurs pertes de l'année précédente.
+  description: Nous sommes le 23 mai 2019. Les journées de la rémunération reprennent. Nous avons trouvé une nouvelle offre qui plaît grâce à Léon. Il nous présente ces bons chiffres. Les actionnaires veulent compenser leurs pertes de l'année précédente.
 
 - title: Je témoigne de la reconnaissance
   icon: icons/hand.svg
@@ -48,6 +48,6 @@
   icon: icons/return-arrow.svg
   description: Vous êtes arrivés à un tournant de votre carrière. D'ici 6 mois, vous aurez fait le tour. Vous souhaitez vous projeter et demandez à Léo de participer à votre entretien trimestriel pour y voir plus clair.
 
-- title: Evolution
+- title: Évolution
   icon: icons/slicing-arrow2.svg
   description: Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.
