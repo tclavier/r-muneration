@@ -1,31 +1,38 @@
 ---
 - title: Bienvenue !
   icon: icons/medieval-gate.svg
-  description: Nous sommes le 13 février 2017. Bonjour et bienvenue chez Dupont & Dupond. Vous intégrez aujourd'hui notre société et Léo, Léa et Léon vont vous accompagner durant cette première journée.
+  description: |
+    Nous sommes le 13 février 2017. Bonjour et bienvenue chez Dupont & Dupond. Vous intégrez aujourd'hui notre société et Léo, Léa et Léon vont vous accompagner durant cette première journée.
 
 - title: Journée de rémunération
   icon: icons/coins.svg
-  description: Nous sommes le 25 mai 2017, c'est la "journée rémunération". Tout le monde est réuni dans nos locaux parisiens. Léa des ressources humaines nous présente les chiffres, nous avons fait suffisamment de bénéfices pour avoir une participation.
+  description: |
+    Nous sommes le 25 mai 2017, c'est la "journée rémunération". Tout le monde est réuni dans nos locaux parisiens. Léa des ressources humaines nous présente les chiffres, nous avons fait suffisamment de bénéfices pour avoir une participation.
 
 - title: Au revoir mercenaire !
   icon: icons/crossed-swords.svg
-  description: L'entreprise n'a pas les moyens d'assumer vos prétentions salariales. Léo, Léa et Léon ont été tirés au sort pour composer la commission d'aide pour vous accompagner dans votre recherche d'une nouvelle société.
+  description: |
+    L'entreprise n'a pas les moyens d'assumer vos prétentions salariales. Léo, Léa et Léon ont été tirés au sort pour composer la commission d'aide pour vous accompagner dans votre recherche d'une nouvelle société.
 
 - title: 1 an déjà
   icon: icons/candle-flame.svg
-  description: Nous sommes le 14 février 2018. Vous venez de terminer votre période de postulat. Nous l'avons célébré en grande pompe. Encore une fois, bienvenue ! Léa des ressources humaines va vous accompagner pour définir votre rémunération (fixe, variable).
+  description: |
+    Nous sommes le 14 février 2018. Vous venez de terminer votre période de postulat. Nous l'avons célébré en grande pompe. Encore une fois, bienvenue ! Léa des ressources humaines va vous accompagner pour définir votre rémunération (fixe, variable).
 
 - title: Journée de rémunération
   icon: icons/gold-bar.svg
-  description: Nous sommes le 24 mai 2018, c'est la "journée rémunération". Léo nous présente les chiffres, ils sont malheureusement catastrophiques... Nous l'avions vu arriver, le marché attend autre chose. En attendant, il faut revoir notre rémunération.
+  description: |
+    Nous sommes le 24 mai 2018, c'est la "journée rémunération". Léo nous présente les chiffres, ils sont malheureusement catastrophiques... Nous l'avions vu arriver, le marché attend autre chose. En attendant, il faut revoir notre rémunération.
 
 - title: Coup dur
   icon: icons/thor-hammer.svg
-  description: Problème familial, vous vous retrouvez avec une nouvelle personne à charge. Il vous faut 500€ de plus par mois pendant au moins les 5 prochaines années.
+  description: |
+    Problème familial, vous vous retrouvez avec une nouvelle personne à charge. Il vous faut 500€ de plus par mois pendant au moins les 5 prochaines années.
 
 - title: Je suis trop payé
   icon: icons/crown.svg
-  description: J'ai pris en charge un grand nombre d'activités en dehors de l'entreprise. Je ne souhaite plus m'investir autant dans l'entreprise. J'aimerais revoir ma rémunération.
+  description: |
+    J'ai pris en charge un grand nombre d'activités en dehors de l'entreprise. Je ne souhaite plus m'investir autant dans l'entreprise. J'aimerais revoir ma rémunération.
 
 - title: Je ne me sens pas à ma place
   icon: icons/stone-throne.svg
@@ -34,20 +41,25 @@
 
 - title: Arrivée d'un bébé
   icon: icons/baby-face.svg
-  description: Je suis heureux(se). J'accueille un nouveau venu dans ma famille. Mon fils va naître dans 6 mois. Je souhaite réévaluer mon salaire.
+  description: |
+    Je suis heureux(se). J'accueille un nouveau venu dans ma famille. Mon fils va naître dans 6 mois. Je souhaite réévaluer mon salaire.
 
 - title: Rémunération incomprise du capital
   icon: icons/robber.svg
-  description: Nous sommes le 23 mai 2019. Les journées de la rémunération reprennent. Nous avons trouvé une nouvelle offre qui plaît grâce à Léon. Il nous présente ces bons chiffres. Les actionnaires veulent compenser leurs pertes de l'année précédente.
+  description: |
+    Nous sommes le 23 mai 2019. Les journées de la rémunération reprennent. Nous avons trouvé une nouvelle offre qui plaît grâce à Léon. Il nous présente ces bons chiffres. Les actionnaires veulent compenser leurs pertes de l'année précédente.
 
 - title: Je témoigne de la reconnaissance
   icon: icons/hand.svg
-  description: Vous venez de passer un mois sur un projet difficile avec votre collègue (de gauche). Vous profitez d'une rétrospective hebdomadaire pour lui témoigner votre reconnaissance.
+  description: |
+    Vous venez de passer un mois sur un projet difficile avec votre collègue (de gauche). Vous profitez d'une rétrospective hebdomadaire pour lui témoigner votre reconnaissance.
 
 - title: Prise de recul
   icon: icons/return-arrow.svg
-  description: Comme régulièrement, vous souhaitez faire un point sur votre activité dans l'entreprise. Vous demandez à Léo de réaliser à votre entretien.
+  description: |
+    Comme régulièrement, vous souhaitez faire un point sur votre activité dans l'entreprise. Vous demandez à Léo de réaliser à votre entretien.
 
 - title: Évolution
   icon: icons/slicing-arrow2.svg
-  description: Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.
+  description: |
+    Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.
