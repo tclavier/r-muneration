@@ -98,3 +98,13 @@
   xp: 16 ans d'expérience
   anciennete: 0 ans d'ancienneté
   description: Marié, 1 enfant
+
+- title: Lucien
+  role: Actionnaire majoritaire
+  icon: lucien.png
+  etp: n/a
+  category: n/a
+  variable: n/a
+  xp: n/a
+  anciennete: n/a
+  description: Retraité
