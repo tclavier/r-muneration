@@ -1,13 +1,13 @@
 ---
 - title: Léo
-  role: Consultant sénior
+  role: Consultant senior
   icon: olivier.png
   etp: Temps plein
   category: Catégorie C
   variable: 40% de variable
   xp: 5 ans d'expérience
   anciennete: 3 ans d'ancienneté
-  description: Célibataire
+  description: Marié, 4 enfants
 
 - title: Léa
   role: Ressources humaines
@@ -27,7 +27,8 @@
   variable: 0% de variable
   xp: 10 ans d'expérience
   anciennete: 6 mois d'ancienneté
-  description: Célibataire
+  description: Pacsé, 3 enfants
+
 
 - title: Léonie
   role: Responsable marketing
@@ -50,7 +51,7 @@
   description: Célibataire
 
 - title: Lola
-  role: Consultante sénior
+  role: Consultante senior
   icon: lola.png
   etp: Temps plein
   category: Catégorie F
@@ -80,7 +81,7 @@
   description: Re-marié, 5 enfants
 
 - title: Léopold
-  role: Consultant sénior
+  role: Consultant senior
   icon: leopold.png
   etp: 80%
   category: Catégorie G
@@ -89,8 +90,9 @@
   anciennete: 5 ans d'ancienneté
   description: Marié, les enfants ont quitté le nid depuis bien longtemps
 
+
 - title: Laurent
-  role: Consultant sénior
+  role: Consultant senior
   icon: laurent.png
   etp: Temps plein
   category: Catégorie I
@@ -99,9 +101,30 @@
   anciennete: 0 ans d'ancienneté
   description: Marié, 1 enfant
 
+- title: Laurène
+  role: Consultante senior
+  icon: laurene.png
+  etp: Temps plein
+  category: Catégorie I
+  variable: 0% de variable
+  xp: 16 ans d'expérience
+  anciennete: 0 ans d'ancienneté
+  description: Marié, 1 enfant
+
+
 - title: Lucien
   role: Actionnaire majoritaire
   icon: lucien.png
+  etp: n/a
+  category: n/a
+  variable: n/a
+  xp: n/a
+  anciennete: n/a
+  description: Retraité
+
+- title: Lucienne
+  role: Actionnaire majoritaire
+  icon: lucienne.png
   etp: n/a
   category: n/a
   variable: n/a
