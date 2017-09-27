@@ -12,7 +12,7 @@
 - title: Au revoir mercenaire !
   icon: icons/crossed-swords.svg
   description: |
-    L'entreprise n'a pas les moyens d'assumer vos prétentions salariales. Léo, Léa et Léon ont été tirés au sort pour composer la commission d'aide pour vous accompagner dans votre recherche d'une nouvelle société.
+    L'entreprise n'a pas les moyens d'assumer vos prétentions salariales.
 
 - title: 1 an déjà
   icon: icons/candle-flame.svg
@@ -37,29 +37,24 @@
 - title: Je ne me sens pas à ma place
   icon: icons/stone-throne.svg
   description: |
-    "Trop vieux pour ces conneries". Je ne peux plus assumer physiquement mes responsabilités d'avant. J'ai envie de contribuer différemment. Je fais appel à la commission d'aide.
+    "Trop vieux pour ces conneries". Je ne peux plus assumer physiquement mes responsabilités d'avant. J'ai envie de contribuer différemment.
 
 - title: Arrivée d'un bébé
   icon: icons/baby-face.svg
   description: |
     Je suis heureux(se). J'accueille un nouveau venu dans ma famille. Mon fils va naître dans 6 mois. Je souhaite réévaluer mon salaire.
 
-- title: Rémunération incomprise du capital
-  icon: icons/robber.svg
-  description: |
-    Les actionnaires veulent une rémunération importante cette année. Léon nous présente les bons résultats de cette année, grâce à une nouvelle offre qui plaît à nos clients. Un représentant des actionnaires vient plaider leur cause.
-
 - title: Je témoigne de la reconnaissance
   icon: icons/hand.svg
   description: |
-    Vous venez de passer un mois sur un projet difficile avec un collègue. Vous profitez d'une rétrospective hebdomadaire pour lui témoigner votre reconnaissance.
+    Vous venez de passer un mois sur un projet difficile avec un collègue.
 
 - title: Prise de recul
   icon: icons/return-arrow.svg
   description: |
-    Comme régulièrement, vous souhaitez faire un point sur votre activité dans l'entreprise. Vous demandez à Léo de réaliser à votre entretien.
+    Comme régulièrement, vous souhaitez faire un point sur votre activité dans l'entreprise.
 
 - title: Évolution
   icon: icons/slicing-arrow2.svg
   description: |
-    Vous avez envie de changer de rôle. Vous décidez de vous entretenir avec Léon pour travailler votre évolution dans l'entreprise.
+    Vous avez envie de changer de rôle.
